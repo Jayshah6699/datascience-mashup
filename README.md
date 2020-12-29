@@ -7,3 +7,5 @@ In this repo I will try to gather all of the projects related to data science wi
 This is a python script for face gender and age detector for an image and also for live webcam footage.
 
 In this Python Project, I had used Deep Learning to accurately identify the gender and age of a person from a single image of a face. I used the models trained by Tal Hassner and Gil Levi. The identified faces may be predicted in gender either be one of ‘Male’ and ‘Female’, and the predicted age may be one of the following ranges- (0-3), (4-7), (8-14), (15-20), (21-36), (38-46), (48-58), (60-100) (8 nodes in the final softmax layer). It is very difficult to accurately guess an exact age from a single image because of factors like makeup, lighting, obstructions, and facial expressions. And so, I made this a classification problem instead of making it one of regression.
+
+![Data Science](https://github.com/tharunc/tharunc/blob/main/assets/temp.gif)
