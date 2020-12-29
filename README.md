@@ -14,7 +14,7 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
 # Working:
 
 <h2>Examples :</h2>
-<p><b>NOTE:- I downloaded the images from Google,if you have any query or problem i can remove them, i just used it for Educational purpose.</b></p>
+<p><b>NOTE:- I downloaded the images from Google, if you have any query or problem I can remove them, I just used it for Educational purpose.</b></p>
 
     >python FaceGenderandAgedetection.py --image girl1.jpg
     Gender: Female
