@@ -47,4 +47,4 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 ---
 
-### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada:
+### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada: <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
