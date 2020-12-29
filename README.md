@@ -31,3 +31,10 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
 [![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/JayShah2.jpg)](https://github.com/Jayshah6699)
 
 Jayshah6699 :fire: 
+
+---
+
+
+## Code of Conduct
+
+You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
