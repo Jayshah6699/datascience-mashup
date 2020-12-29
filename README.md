@@ -28,6 +28,6 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
 
 <!-- If you click on the image it would take to your GitHub profile -->
 
-[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/JayShah.jpg?size=100)(https://github.com/Jayshah6699)
+[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/JayShah.jpg?size=100)](https://github.com/Jayshah6699)
 
 :fire: Jayshah6699
