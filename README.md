@@ -21,3 +21,13 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
     Age: 15-20 years
 
 ![Data Science](https://github.com/tharunc/datascience-mashup/blob/main/Asset/Face%20gender%20and%20age%20detection%20girl1.png)
+
+---
+
+## Project Admin :point_down:
+
+<!-- If you click on the image it would take to your GitHub profile -->
+
+[![](https://www.linkedin.com/in/jayshah-in/detail/photo/](https://github.com/Jayshah6699)
+
+:fire: Jayshah6699
