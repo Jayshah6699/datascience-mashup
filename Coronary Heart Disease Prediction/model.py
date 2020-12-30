@@ -1,9 +1,9 @@
+import utils
 # Data Loading and Numerical Operations
 import pandas as pd
 import numpy as np
 # Data Visualizations
 import matplotlib.pyplot as plt
-%matplotlib inline
 import seaborn as sns
 # Data Resampling
 from sklearn.utils import resample
@@ -22,14 +22,12 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, roc_curve, classification_report
-# Hyperparameter Tuning
+# Hyper-parameter Tuning
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import GridSearchCV
-# Ensembling
+# Ensemble
 from mlxtend.classifier import StackingCVClassifier
 
 
-## Reading data
 
-data = pd.read_csv("Dataset/framingham.csv")
-data.head()
+
