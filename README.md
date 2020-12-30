@@ -19,7 +19,7 @@ In this Python Project, I had used Deep Learning to accurately identify the gend
 
 <!-- If you click on the image it would take to your GitHub profile -->
 
-[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/JayShah2.jpg)](https://github.com/Jayshah6699)
+[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/github.jpg)](https://github.com/Jayshah6699)
 
 Jayshah6699 :fire: 
 
@@ -34,7 +34,7 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 
 ## Contributors :point_down:
-[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/JayShah2.jpg)](https://github.com/Jayshah6699)
+[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/github.jpg)](https://github.com/Jayshah6699)
 
 ---
 
