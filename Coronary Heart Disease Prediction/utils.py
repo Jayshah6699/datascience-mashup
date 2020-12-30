@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 
+
 def preprocess(data):
 	# Filling the missing spaces of glucose column with the mode of the data (Mode = 75)
 	data["glucose"].fillna((data["glucose"].mode())[0], inplace=True)
