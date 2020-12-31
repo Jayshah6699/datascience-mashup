@@ -3,7 +3,6 @@ import pandas as pd
 import sys
 import os
 
-EXPORTED_PATH = '.\\updated-files'
 
 
 def formatCheck(file_name):
@@ -164,13 +163,13 @@ def Export(df, file_name, ext):
     # Exporting function
     print(f'Exporting {file_name}....')
     if ext == 'csv':
-        df.to_csv(os.path.join(EXPORTED_PATH, str(file_name) + '-cleaned.' + str(ext)), index=False)
+        df.to_csv(str(file_name) + '-cleaned.' + str(ext), index=False)
     elif ext == 'xlsx':
-        df.to_excel(os.path.join(EXPORTED_PATH, str(file_name) + '-cleaned.' + str(ext)), index=False)
+        df.to_excel(str(file_name) + '-cleaned.' + str(ext), index=False)
     elif ext == 'html':
-        df.to_html(os.path.join(EXPORTED_PATH, str(file_name) + '-cleaned.' + str(ext)), index=False)
+        df.to_html(str(file_name) + '-cleaned.' + str(ext), index=False)
     elif ext == 'json':
-        df.to_json(os.path.join(EXPORTED_PATH, str(file_name) + '-cleaned.' + str(ext)), index=False)
+        df.to_json(str(file_name) + '-cleaned.' + str(ext), index=False)
 
 
 def Check(df):
