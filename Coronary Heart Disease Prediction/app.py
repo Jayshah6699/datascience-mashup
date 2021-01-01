@@ -17,6 +17,8 @@ data = pd.read_csv("Dataset/framingham.csv")
 
 data = utils.preprocess(data)
 
-print(data.shape, data.head())
 
-print(utils.feature_selection(data))
+def main():
+    st.title("Heart Disease Prediction - Manual Parameter Tuning")
+    st.sidebar.title("Manual Parameter Tuning")
+    st.markdown("")

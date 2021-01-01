@@ -16,11 +16,6 @@ from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precisio
 import streamlit as st
 
 
-@st.cache(persist=True)
-def load_data():
-    data = pd.read_csv('data/mushrooms.csv')
-    return data
-
 
 @st.cache(persist=True)
 def preprocess(data):
