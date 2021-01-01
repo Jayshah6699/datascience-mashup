@@ -72,3 +72,20 @@ def split_and_scale(data):
     test_x = scaler.transform(test_x)
 
     return train_x, test_x, train_y, test_y
+
+
+def plot_metrics(metrics_list, model, x_test, y_test, class_names):
+    if 'Confusion Matrix' in metrics_list:
+        st.subheader("Confusion Matrix")
+        plot_confusion_matrix(model, x_test, y_test, display_labels=class_names)
+        st.pyplot()
+
+    if 'ROC Curve' in metrics_list:
+        st.subheader("ROC Curve")
+        plot_roc_curve(model, x_test, y_test)
+        st.pyplot()
+
+    if 'Precision-Recall Curve' in metrics_list:
+        st.subheader("Precision-Recall Curve")
+        plot_precision_recall_curve(model, x_test, y_test)
+        st.pyplot()
