@@ -26,4 +26,17 @@ def logistic(X_train, X_test, y_train, y_test, C, max_iter):
 
 
 def KNN(X_train, X_test, y_train, y_test, n):
-    knn = KNeighborsClassifier()
+    knn = KNeighborsClassifier(n_neighbors=n)
+    knn.fit(X_train, y_train)
+    y_pred = knn.predict(X_test)
+    accuracy = knn.score(X_test, y_test)
+    return y_pred, accuracy
+
+
+def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, split):
+    dt = DecisionTreeClassifier(criterion=criterion, max_depth=max_depth,
+                                min_samples_leaf=leaf, min_samples_split=split)
+    dt.fit(X_train, y_train)
+    y_pred = dt.predict(X_test)
+    accuracy = dt.score(X_test, y_test)
+    return y_pred, accuracy
