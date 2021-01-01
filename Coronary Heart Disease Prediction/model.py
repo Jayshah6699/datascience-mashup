@@ -8,13 +8,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-# Hyper-parameter Tuning
-from sklearn.model_selection import RandomizedSearchCV
-from sklearn.model_selection import GridSearchCV
-# Ensemble
-from mlxtend.classifier import StackingCVClassifier
+from xgboost import XGBClassifier
+from sklearn.naive_bayes import GaussianNB
 
 
 def LR(X_train, X_test, y_train, y_test, C, max_iter):
@@ -58,3 +53,21 @@ def GBC(X_train, X_test, y_train, y_test, n_estimators, max_depth, learning_rate
     y_pred = gbc.predict(X_test)
     accuracy = gbc.score(X_test, y_test)
     return y_pred, accuracy
+
+
+def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators):
+    xgb = XGBClassifier(eta=eta, max_depth=max_depth, n_estimators=n_estimators)
+    xgb.fit(X_train, y_train)
+    y_pred = xgb.predict(X_test)
+    accuracy = xgb.score(X_test, y_test)
+    return y_pred, accuracy
+
+
+def GNB(X_train, X_test, y_train, y_test, C, gamma, kernel):
+    gnb = GaussianNB(C=C, gamma=gamma, kernel=kernel)
+    gnb.fit(X_train, y_train)
+    y_pred = gnb.predict(X_test)
+    accuracy = gnb.score(X_test, y_test)
+    return y_pred, accuracy
+
+
