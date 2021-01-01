@@ -40,3 +40,14 @@ def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, split):
     y_pred = dt.predict(X_test)
     accuracy = dt.score(X_test, y_test)
     return y_pred, accuracy
+
+
+def RF(X_train, X_test, y_train, y_test, n_estimators, max_depth, bootstrap):
+    rf = RandomForestClassifier(n_estimators=n_estimators,
+                           max_depth=max_depth, bootstrap=bootstrap, n_jobs=-1)
+    rf.fit(X_train, y_train)
+    y_pred = rf.predict(X_test)
+    accuracy = rf.score(X_test, y_test)
+    return y_pred, accuracy
+
+
