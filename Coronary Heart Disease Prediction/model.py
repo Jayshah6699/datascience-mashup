@@ -17,7 +17,7 @@ from sklearn.model_selection import GridSearchCV
 from mlxtend.classifier import StackingCVClassifier
 
 
-def logistic(X_train, X_test, y_train, y_test, C, max_iter):
+def LR(X_train, X_test, y_train, y_test, C, max_iter):
     lr = LogisticRegression(C=C, max_iter=max_iter)
     lr.fit(X_train, y_train)
     y_pred = lr.predict(X_test)
@@ -51,3 +51,10 @@ def RF(X_train, X_test, y_train, y_test, n_estimators, max_depth, bootstrap):
     return y_pred, accuracy
 
 
+def GBC(X_train, X_test, y_train, y_test, n_estimators, max_depth, learning_rate, warm_start):
+    gbc = GradientBoostingClassifier(n_estimators=n_estimators, max_depth=max_depth,
+                                     learning_rate=learning_rate, warm_start=warm_start)
+    gbc.fit(X_train, y_train)
+    y_pred = gbc.predict(X_test)
+    accuracy = gbc.score(X_test, y_test)
+    return y_pred, accuracy
