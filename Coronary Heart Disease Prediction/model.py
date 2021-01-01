@@ -1,7 +1,3 @@
-import utils
-# Data Loading and Numerical Operations
-import pandas as pd
-import numpy as np
 # Data Modeling
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
