@@ -1,0 +1,10 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+.dark-mode {
+    color: white;
+    background-color: black;
+    font-family: 'Oxygen', sans-serif;
+}

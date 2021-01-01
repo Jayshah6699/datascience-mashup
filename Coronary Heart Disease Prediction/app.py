@@ -35,9 +35,9 @@ def main():
                 "\n### The dataset used here is the **Framingham** dataset publicly available "
                 "at [Kaggle](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)."
                 "\n## About the Dataset:"
-                "\n The **Framingham** dataset is from an ongoing cardiovascular study" \
-                "on residents of the town of Framingham, Massachusetts. The classification goal is " \
-                "to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset " \
+                "\nThe **Framingham** dataset is from an ongoing cardiovascular study"
+                "on residents of the town of Framingham, Massachusetts. The classification goal is "
+                "to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset "
                 "provides the patients’ information. It includes over 4,240 records and 15 attributes."
                 "")
 
