@@ -4,9 +4,6 @@ import pandas as pd
 import numpy as np
 # Metrics
 from sklearn.metrics import precision_score, recall_score
-# Data Visualizations
-import matplotlib.pyplot as plt
-import seaborn as sns
 # Web App
 import streamlit as st
 
@@ -43,11 +40,15 @@ def main():
     data = pd.read_csv("Dataset/framingham.csv")
     data = utils.preprocess(data)
 
-    viz_list = st.sidebar.multiselect("Exploratory Data Analysis:",
+    st.sidebar.markdown("\n#### Exploratory Data Analysis:")
+    viz_list = st.sidebar.multiselect("",
                                       ('Categorical Visualisation',
                                        'Numerical Visualisation',
                                        'sysBP and diaBP Visualisation'))
     utils.visualize(viz_list, data)
+
+
+
 
 
 if __name__ == '__main__':
