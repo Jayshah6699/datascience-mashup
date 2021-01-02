@@ -130,3 +130,12 @@ By contributing, you agree that your contributions will be licensed under its MI
 ### ⭐Thank you for your contribution. ⭐
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
+
+## Contributors 🌟
+
+Thanks goes to these wonderful people ✨✨:
+
+<a href="https://github.com/Jayshah6699/datascience-mashup/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Jayshah6699/datascience-mashup" />
+</a>
+
