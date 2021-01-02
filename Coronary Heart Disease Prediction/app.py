@@ -43,7 +43,11 @@ def main():
     data = pd.read_csv("Dataset/framingham.csv")
     data = utils.preprocess(data)
 
-    utils.visualize(data)
+    viz_list = st.sidebar.multiselect("Exploratory Data Analysis:",
+                                      ('Categorical Visualisation',
+                                       'Numerical Visualisation',
+                                       'sysBP and diaBP Visualisation'))
+    utils.visualize(viz_list, data)
 
 
 if __name__ == '__main__':
