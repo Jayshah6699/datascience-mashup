@@ -18,13 +18,8 @@ data = pd.read_csv("Dataset/framingham.csv")
 data = utils.preprocess(data)
 
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f'<style>{f.read}</style>', unsafe_allow_html=True)
-
-
 def main():
-    local_css("css/styles.css")
+    utils.local_css("css/styles.css")
     st.title("Heart Disease Prediction - Manual Parameter Tuning Visualizer")
     st.sidebar.title("Manual Parameter Tuning")
     st.markdown("### Machine Learning is not only about the algorithms you use but also about the Parameters you assign"
