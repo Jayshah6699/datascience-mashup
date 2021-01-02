@@ -1,6 +1,8 @@
 # Dataset and Matrix Manipulation
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 # Data Resampling
 from sklearn.utils import resample
 # Feature Selection
@@ -40,6 +42,42 @@ def preprocess(data):
     data = pd.concat([target0, target1])
 
     return data
+
+
+def visualize(data):
+    st.subheader("Distribution of all Categorical features")
+    categorical_features = ['male', 'education', 'currentSmoker', 'BPMeds',
+                            'prevalentStroke', 'prevalentHyp', 'diabetes']
+    num_plots = len(categorical_features)
+    tot_cols = 2
+    tot_rows = num_plots//tot_cols + 1
+    fig, axs = plt.subplots(nrows=tot_rows, ncols=tot_cols, figsize=(7*tot_cols, 7*tot_rows),
+                            facecolor='w', constrained_layout=True)
+    for i, var in enumerate(categorical_features):
+        row = i//tot_cols
+        pos = i%tot_cols
+        plot = sns.countplot(x=var, data=data, ax=axs[row][pos])
+    st.pyplot()
+
+    st.subheader("Distribution of all numerical features")
+    numeric_features = ['cigsPerDay', 'totChol', 'sysBP', 'diaBP',
+                        'BMI', 'heartRate', 'glucose']
+    num_plots = len(numeric_features)
+    tot_cols = 2
+    tot_rows = num_plots // tot_cols + 1
+    fig, axs = plt.subplots(nrows=tot_rows, ncols=tot_cols, figsize=(7 * tot_cols, 7 * tot_rows),
+                            facecolor='w', constrained_layout=True)
+    for i, var in enumerate(numeric_features):
+        row = i // tot_cols
+        pos = i % tot_cols
+        plot = sns.kdeplot(x=var, data=data, ax=axs[row][pos])
+    st.pyplot()
+
+
+    st.subheader("TenYearCHD Distribution of sysBP and diaBP with respect to currentSmoker and gender")
+    sns.lmplot('sysBP', 'diaBP', data=data, hue='TenYearCHD',
+               col='male', row='currentSmoker')
+    st.pyplot()
 
 
 def feature_selection(data):
