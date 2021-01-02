@@ -30,9 +30,10 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 
 ## Contributors :point_down:
-## Contributors add your name one by one here
-[![](https://github.com/tharunc/datascience-mashup/blob/main/Asset/github.jpg)](https://github.com/Jayshah6699)
+## Contributors 🌟
 
----
+Thanks goes to these wonderful people ✨✨:
 
-### Any type of Contributions like Pull Requests, Issues are always welcomed ! :tada: <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
+<a href="https://github.com/Jayshah6699/datascience-mashup/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Jayshah6699/datascience-mashup" />
+</a>
