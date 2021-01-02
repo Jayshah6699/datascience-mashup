@@ -28,8 +28,6 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 ---
 
-
-## Contributors :point_down:
 ## Contributors 🌟
 
 Thanks goes to these wonderful people ✨✨:
