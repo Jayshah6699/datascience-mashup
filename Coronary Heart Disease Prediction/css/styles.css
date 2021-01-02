@@ -1,10 +1,14 @@
 body {
     color: white;
-    background-color: black;
+    background-color: #333;
     font-family: 'Oxygen', sans-serif;
 }
-.dark-mode {
+
+.sidebar .sidebar-content {
+    background-color: #616161;
+    background-image: none;
     color: white;
-    background-color: black;
-    font-family: 'Oxygen', sans-serif;
 }
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
