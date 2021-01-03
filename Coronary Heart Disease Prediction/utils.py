@@ -78,7 +78,7 @@ def visualize(viz_list, data):
 
     if 'sysBP and diaBP Visualisation' in viz_list:
         st.subheader("TenYearCHD Distribution of sysBP and diaBP with respect to currentSmoker and gender")
-        sns.lmplot('sysBP', 'diaBP', data=data, hue='TenYearCHD',
+        sns.lmplot(x='sysBP', y='diaBP', data=data, hue='TenYearCHD',
                    col='male', row='currentSmoker')
         st.pyplot()
 
