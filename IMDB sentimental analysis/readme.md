@@ -1,6 +1,6 @@
-Sentimental analysis on IMDB Movies review
+# Sentimental analysis on IMDB Movies review
 
-Sentiment analysis (or opinion mining) is a natural language processing technique used
+Sentiment analysis(https://en.wikipedia.org/wiki/Sentiment_analysis) is a natural language processing technique used
  to determine whether data is positive, negative or neutral in text.We are using Sentimental
  Analysis for Movies Review.
 
