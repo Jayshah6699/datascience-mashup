@@ -95,6 +95,12 @@ def feature_selection(data):
     scores = pd.concat([data_columns, data_scores], axis=1)
     scores.columns = ['Feature', 'Score']
 
+    st.subheader("Plot showing the best features in descending order")
+    scores = scores.sort_values(by="Score", ascending=False)
+    plt.figure(figsize=(20, 7), facecolor='w')
+    sns.barplot(x='Feature', y='Score', data=scores, palette='BuGn_r')
+    st.pyplot()
+
     # Select 10 features
     features = scores["Feature"].tolist()[:10]
 
