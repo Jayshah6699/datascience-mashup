@@ -28,21 +28,9 @@ Head over to [here](/CONTRIBUTING.md).
 ## Contributors 🌟
 
 Thanks goes to these wonderful people ✨✨:
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://github.com/gargnityansh"><img src="https://avatars3.githubusercontent.com/u/45964420?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gargnityansh</b></sub></a><br /><a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=gargnityansh" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/avishkar2001"><img src="https://avatars3.githubusercontent.com/u/60147538?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avishkar</b></sub></a><br /><a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001" title="Code">💻</a> <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001" title="Documentation">📖</a></td>
   </tr>
 </table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-<a href="https://github.com/Jayshah6699/datascience-mashup/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Jayshah6699/datascience-mashup" />
-</a>
