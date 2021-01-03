@@ -5,10 +5,11 @@ body {
 }
 
 .sidebar .sidebar-content {
-    background-color: #616161;
+    background-color: #c1c1c1;
     background-image: none;
-    color: white;
+    color: black;
 }
+
 
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
