@@ -32,8 +32,7 @@ You can get it directly from-
 
 ```https://github.com/Jayshah6699/datascience-mashup```
 
-
-
+![main page](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "snapshot"
                                
 
                                     
