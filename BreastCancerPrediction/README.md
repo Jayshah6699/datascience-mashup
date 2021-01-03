@@ -34,7 +34,10 @@ You can get it directly from-
 
 ```https://github.com/Jayshah6699/datascience-mashup```
 
-[main]: https://github.com/Pranjal-2001/datascience-mashup/blob/main/BreastCancerPrediction/snapshot.png "main page"
+
+
+![mainpage](https://github.com/Pranjal-2001/datascience-mashup/blob/main/BreastCancerPrediction/snapshot.png "mainppage1")
+
 
                                
 
