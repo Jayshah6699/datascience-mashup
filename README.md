@@ -1,6 +1,6 @@
 # Datascience Mashup
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 In this repo I will try to gather all of the projects related to data science with clean datasets amalgamated with high accuracy models to solve real world problems.
 
@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ✨✨:
 <table>
   <tr>
     <td align="center"><a href="https://github.com/gargnityansh"><img src="https://avatars3.githubusercontent.com/u/45964420?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gargnityansh</b></sub></a><br /><a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=gargnityansh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/avishkar2001"><img src="https://avatars3.githubusercontent.com/u/60147538?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avishkar</b></sub></a><br /><a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001" title="Code">💻</a> <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001" title="Documentation">📖</a></td>
   </tr>
 </table>
 
