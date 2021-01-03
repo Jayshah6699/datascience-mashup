@@ -13,6 +13,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vaishnavi-1",
+      "name": "Vaishnavi Saxena",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/62782231?v=4",
+      "profile": "https://github.com/vaishnavi-1",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
