@@ -51,6 +51,8 @@ def main():
     if st.sidebar.checkbox("Check the box for feature selection", False):
         data = utils.feature_selection(data)
 
+    train_x, test_x, train_y, test_y = utils.split_and_scale(data)
+
 
 
 
