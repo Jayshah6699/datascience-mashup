@@ -6,9 +6,9 @@
 
 Predicting the Movies Review
 
-Dataset Preperations
+Dataset Preperation
 
-1.We load the dataset from keras.dataset
-2.Divide the dataset into four parts XT,yT,Xt,yt
-3.We are using 10000 words which are occuring more frequently.
+- We load the dataset from keras.dataset
+- Divide the dataset into four parts XT,yT,Xt,yt
+- We are using 10000 words which are occuring more frequently.
 
