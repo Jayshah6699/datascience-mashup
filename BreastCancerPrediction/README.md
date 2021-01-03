@@ -6,7 +6,9 @@ Breast cancer is significantly increasing among women around the world�
 
 ## Find more here :
        1. Understanding project
+       
        2. Tech stack used
+       
        3. How to start using this model?
        
 ## Understanding project
@@ -32,7 +34,11 @@ You can get it directly from-
 
 ```https://github.com/Jayshah6699/datascience-mashup```
 
-![main page](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "snapshot"
+[main]: https://github.com/Pranjal-2001/datascience-mashup/blob/main/BreastCancerPrediction/snapshot.png "main page"
+
                                
+
+
+If you want to contribute to the project, please read the guidelines for the same.
 
                                     
