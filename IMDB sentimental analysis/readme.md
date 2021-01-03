@@ -18,7 +18,7 @@ Data Preprocessing
 
 Modelling and Evaluation
 - Build the CNN model.
-- To avoid overfitting we us Earlystopping and checkpoint.
+- To avoid overfitting we use Earlystopping and checkpoint.
 - Evaluate our model on test data.
 - Predict the results.
 
