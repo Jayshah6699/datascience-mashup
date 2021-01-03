@@ -13,6 +13,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "avishkar2001",
+      "name": "Avishkar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60147538?v=4",
+      "profile": "https://github.com/avishkar2001",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
