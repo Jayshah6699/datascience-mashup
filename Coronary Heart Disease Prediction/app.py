@@ -29,8 +29,8 @@ def main():
                 "at [Kaggle](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)."
                 "\n## About the Dataset:"
                 "\nThe **Framingham** dataset is from an ongoing cardiovascular study"
-                "on residents of the town of Framingham, Massachusetts. The classification goal is "
-                "to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset "
+                " on residents of the town of Framingham, Massachusetts. The classification goal is "
+                "to predict whether the patient has 10-year risk of future coronary heart disease (CHD). The dataset "
                 "provides the patients’ information. It includes over 4,240 records and 15 attributes."
                 "")
     st.sidebar.markdown("Manually select the model you want to view and use the interactive text boxes, sliding bars "
@@ -46,6 +46,12 @@ def main():
                                        'Numerical Visualisation',
                                        'sysBP and diaBP Visualisation'))
     utils.visualize(viz_list, data)
+
+    st.sidebar.markdown("\n#### Feature Selection:")
+    if st.sidebar.checkbox("Check the box for feature selection", False):
+        data = utils.feature_selection(data)
+
+
 
 
 

@@ -97,7 +97,7 @@ def feature_selection(data):
 
     st.subheader("Plot showing the best features in descending order")
     scores = scores.sort_values(by="Score", ascending=False)
-    plt.figure(figsize=(20, 7), facecolor='w')
+    plt.figure(figsize=(15, 7), facecolor='w')
     sns.barplot(x='Feature', y='Score', data=scores, palette='BuGn_r')
     st.pyplot()
 
