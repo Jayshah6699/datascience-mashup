@@ -53,7 +53,14 @@ def main():
 
     train_x, test_x, train_y, test_y = utils.split_and_scale(data)
 
-
+    st.sidebar.subheader("Choose Classifier")
+    classifier = st.sidebar.selectbox("Classifier", ("Logistic Regression",
+                                                     "k-Nears Neighbour Classifier",
+                                                     "Decision Tree Classifier",
+                                                     "Random Forest Classifier",
+                                                     "Gradient Boosting Classifier",
+                                                     "XGBoost Classifier",
+                                                     "Gaussian Naive Bayes Classifier"))
 
 
 
