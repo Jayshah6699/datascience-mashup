@@ -4,7 +4,7 @@ Sentiment analysis (or opinion mining) is a natural language processing techniqu
  to determine whether data is positive, negative or neutral in text.We are using Sentimental
  Analysis for Movies Review.
 
-<h3>Predicting the Movies Review</h3>
+Predicting the Movies Review
 
 Dataset Preperations
 1.We load the dataset from keras.dataset
