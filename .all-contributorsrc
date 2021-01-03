@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gargnityansh",
+      "name": "gargnityansh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45964420?v=4",
+      "profile": "https://github.com/gargnityansh",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "datascience-mashup",
+  "projectOwner": "Jayshah6699",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
