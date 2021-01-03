@@ -23,6 +23,6 @@ Modelling and Evaluation
 - Predict the results.
 
 <h3>Conclusion</h3>
-Movies reveiw is postive if prediction is greater than 0.5 otherwise it is negative.
+Movies reveiw is postive if prediction is greater than 0.7 otherwise it is negative.
 
 We got 93% accuracy on train data and  88% on test data.
