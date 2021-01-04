@@ -104,7 +104,9 @@ def feature_selection(data):
     # Select 10 features
     features = scores["Feature"].tolist()[:10]
 
-    return data[features]
+    return data[['sysBP', 'glucose', 'age', 'cigsPerDay', 'totChol', 'diaBP',
+                 'prevalentHyp', 'male', 'BPMeds', 'diabetes', 'TenYearCHD']]
+
 
 
 @st.cache(persist=True)
