@@ -13,7 +13,7 @@ def LR(X_train, X_test, y_train, y_test, C, max_iter):
     lr.fit(X_train, y_train)
     y_pred = lr.predict(X_test)
     accuracy = lr.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, lr
 
 
 def KNN(X_train, X_test, y_train, y_test, n):
@@ -21,7 +21,7 @@ def KNN(X_train, X_test, y_train, y_test, n):
     knn.fit(X_train, y_train)
     y_pred = knn.predict(X_test)
     accuracy = knn.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, knn
 
 
 def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, split):
@@ -30,7 +30,7 @@ def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, split):
     dt.fit(X_train, y_train)
     y_pred = dt.predict(X_test)
     accuracy = dt.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, dt
 
 
 def RF(X_train, X_test, y_train, y_test, n_estimators, max_depth, bootstrap):
@@ -39,7 +39,7 @@ def RF(X_train, X_test, y_train, y_test, n_estimators, max_depth, bootstrap):
     rf.fit(X_train, y_train)
     y_pred = rf.predict(X_test)
     accuracy = rf.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, rf
 
 
 def GBC(X_train, X_test, y_train, y_test, n_estimators, max_depth, learning_rate, warm_start):
@@ -48,7 +48,7 @@ def GBC(X_train, X_test, y_train, y_test, n_estimators, max_depth, learning_rate
     gbc.fit(X_train, y_train)
     y_pred = gbc.predict(X_test)
     accuracy = gbc.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, gbc
 
 
 def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators):
@@ -56,7 +56,7 @@ def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators):
     xgb.fit(X_train, y_train)
     y_pred = xgb.predict(X_test)
     accuracy = xgb.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, xgb
 
 
 def GNB(X_train, X_test, y_train, y_test, C, gamma, kernel):
@@ -64,6 +64,6 @@ def GNB(X_train, X_test, y_train, y_test, C, gamma, kernel):
     gnb.fit(X_train, y_train)
     y_pred = gnb.predict(X_test)
     accuracy = gnb.score(X_test, y_test)
-    return y_pred, accuracy
+    return y_pred, accuracy, gnb
 
 
