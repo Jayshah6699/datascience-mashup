@@ -16,8 +16,8 @@ def LR(X_train, X_test, y_train, y_test, C, max_iter):
     return y_pred, accuracy, lr
 
 
-def KNN(X_train, X_test, y_train, y_test, n):
-    knn = KNeighborsClassifier(n_neighbors=n)
+def KNN(X_train, X_test, y_train, y_test, n, leaf_size, algorithm):
+    knn = KNeighborsClassifier(n_neighbors=n, leaf_size=leaf_size, algorithm=algorithm)
     knn.fit(X_train, y_train)
     y_pred = knn.predict(X_test)
     accuracy = knn.score(X_test, y_test)

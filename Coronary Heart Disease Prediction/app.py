@@ -1,4 +1,5 @@
 import utils
+import model
 # Data Loading and Numerical Operations
 import pandas as pd
 import numpy as np
@@ -48,11 +49,21 @@ def main():
     utils.visualize(viz_list, data)
 
     st.sidebar.markdown("\n#### Feature Selection:")
-    if st.sidebar.checkbox("Check the box for feature selection", False):
-        data = utils.feature_selection(data)
+    feature = st.sidebar.radio("Feature selection using chi-squared test", ("Only Select Features",
+                                                                            "Select Features and Plot"), key="feature")
+    if feature == "Only Select Features":
+        st.markdown("Best 10 features along with their plots")
+        score, data = utils.feature_selection(data)
+        st.write(score)
+    else:
+        score, data = utils.feature_selection(data)
+        st.markdown("Best 10 features along with their plots")
+        st.write(score)
+        utils.plot_feature_selection(score)
 
     train_x, test_x, train_y, test_y = utils.split_and_scale(data)
 
+    class_names = ["Has Heart Disease", "Doesn't have Heart Disease"]
     st.sidebar.subheader("Choose Classifier")
     classifier = st.sidebar.selectbox("Classifier", ("Logistic Regression",
                                                      "k-Nears Neighbour Classifier",
@@ -61,6 +72,47 @@ def main():
                                                      "Gradient Boosting Classifier",
                                                      "XGBoost Classifier",
                                                      "Gaussian Naive Bayes Classifier"))
+
+    if classifier == "Logistic Regression":
+        st.sidebar.subheader("Model Hyperparameters")
+        C = st.sidebar.number_input("C (Regularization parameter)", 0.01, 10.0, step=0.01, key='Lr')
+        max_iter = st.sidebar.slider("Maximum no. of Iterations", 100, 500, key='max_iter')
+
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Logistic Regression Results")
+            y_pred, accuracy, models = model.LR(train_x, test_x, train_y, test_y, C=C, max_iter=max_iter)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
+
+    if classifier == "k-Nears Neighbour Classifier":
+        st.sidebar.subheader("Model Hyperparameters")
+        n = st.sidebar.number_input("n_neighbors (Number of nearest neighbors)", 1, 20, step=1, key='n')
+        leaf_size = st.sidebar.slider("Leaf Size", 10, 200, key='leaf_size')
+        algorithm = st.sidebar.radio("Algorithm to use", ("Ball Tree", "KD Tree", "Auto"), key='algorithm')
+
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("kNN Classification Results")
+            y_pred, accuracy, models = model.KNN(train_x, test_x, train_y, test_y, n=n, leaf_size=leaf_size,
+                                                 algorithm=algorithm)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
+
+    if classifier == "Decision Tree Classifier":
+        criterion = st.sidebar.radio("Criterion of splitting trees", ("gini", "entropy"), key='criterion')
+        max_depth = st.sidebar.slider("Max depth of the tree", 1, 50, key='amx_depth')
+        min_samples_leaf = st.sidebar
 
 
 
