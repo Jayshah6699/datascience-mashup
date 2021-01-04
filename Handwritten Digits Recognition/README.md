@@ -21,3 +21,6 @@ I have used **MNIST Dataset** for training the model. This dataset consists of *
 - **Flatten layer** : It is used to flatten the input. It is a connection between Convolutional and dense layers.
 - **Dense layer** : It is the layer type we will use in for our output layer. Dense is a standard layer type that is used in many cases for neural networks.
 - **Softmax** : It makes the output sum up to 1 so the output can be interpreted as probabilities. The model will then make its prediction based on which option has the highest probability.
+
+## Conclusion
+This model has gained accuracy of **97.68 %**. It recognizes digits with high efficiency. I have trained the model by taking number of epochs as three. I haven't faced any problem of overfitting, underfitting etc while training the model.
