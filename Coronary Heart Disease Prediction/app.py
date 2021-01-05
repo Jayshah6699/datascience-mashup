@@ -112,9 +112,31 @@ def main():
     if classifier == "Decision Tree Classifier":
         criterion = st.sidebar.radio("Criterion of splitting trees", ("gini", "entropy"), key='criterion')
         max_depth = st.sidebar.slider("Max depth of the tree", 1, 50, key='amx_depth')
-        min_samples_leaf = st.sidebar
+        min_samples_leaf = st.sidebar.number_input("Minimum Leaf Samples", 1, 10, step=1, key='min_samples_leaf')
+        min_samples_split = st.sidebar.number_input("Minimum Split Samples", 1, 10, step=1, key='min_samples_split')
+
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Decision Tree Classification Results")
+            y_pred, accuracy, models = model.DT(train_x, test_x, train_y, test_y, criterion=criterion, max_depth=max_depth,
+                                min_samples_leaf=min_samples_leaf, min_samples_split=min_samples_split)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
 
 
+
+    if classifier == "Random Forest Classifier":
+        st.sidebar.subheader("Model Hyperparameters")
+        n_estimators = st.sidebar.number_input("This is the number of trees in the forest", 100, 5000, step=10,
+                                               key='n_estimators')
+        max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=2, key='max_depth')
+        bootstrap = st.sidebar.radio("Bootstrap samples when building trees", ("True", "False"), key='bootstrap')
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
 
 
 if __name__ == '__main__':
