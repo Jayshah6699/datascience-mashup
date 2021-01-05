@@ -20,12 +20,12 @@ def main():
                 "\nThis interactive web app will help you explore various parameters of different ML algorithms."
                 "\nThe different ML models presented here are:"
                 "\n* Logistic Regression"
+                "\n* Support Vector Classifier"
                 "\n* k-Nears Neighbour Classifier"
                 "\n* Decision Tree Classifier"
                 "\n* Random Forest Classifier"
                 "\n* Gradient Boosting Classifier"
                 "\n* XGBoost Classifier"
-                "\n* Gaussian Naive Bayes Classifier"
                 "\n### The dataset used here is the **Framingham** dataset publicly available "
                 "at [Kaggle](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)."
                 "\n## About the Dataset:"
@@ -71,7 +71,7 @@ def main():
                                                      "Random Forest Classifier",
                                                      "Gradient Boosting Classifier",
                                                      "XGBoost Classifier",
-                                                     "Gaussian Naive Bayes Classifier"))
+                                                     "Support Vector Classifier"))
 
     if classifier == "Logistic Regression":
         st.sidebar.subheader("Model Hyperparameters")
@@ -84,6 +84,24 @@ def main():
         if st.sidebar.button("Classify", key="classify"):
             st.subheader("Logistic Regression Results")
             y_pred, accuracy, models = model.LR(train_x, test_x, train_y, test_y, C=C, max_iter=max_iter)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
+    if classifier == "Support Vector Classifier":
+        st.sidebar.subheader("Model Hyperparameters")
+        C = st.sidebar.number_input("C (Regularization parameter)", 0.01, 10.0, step=0.01, key='C')
+        gamma = st.sidebar.slider("Gamma (for non linear hyperplanes)", 0.1, 100, key='gamma')
+        kernel = st.sidebar.radio("Kernel (type of hyperplane)", ("linear", "rbf", "poly"), key='kernel')
+        if kernel == 'poly':
+            degree = st.sidebar.number_input("Degree of the polynomial used to find the hyperplane", 0, 10, step=1, key='degree')
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Support Vector Classification Results")
+            y_pred, accuracy, models = model.SVC(train_x, test_x, train_y, test_y, C=C, gamma=gamma, kernel=kernel, degree=degree)
             st.write("Accuracy: ", accuracy.round(3))
             st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
             st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
@@ -151,7 +169,7 @@ def main():
 
     if classifier == "Gradient Boosting Classifier":
         st.sidebar.subheader("Model Hyperparameters")
-        n_estimators = st.sidebar.slider("Number of Trees in the Random Forest", 100, 4000, key='n_estimators')
+        n_estimators = st.sidebar.slider("Number of Trees in the Gradient Boost ensemble", 100, 4000, key='n_estimators')
         max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=5, key='max_depth')
         learning_rate = st.sidebar.number_input("Learning Rate", 0.01, 10.0, step=0.01, key='learning_rate')
         warm_start = st.sidebar.radio("Reuse previous solution for more ensemble", ("True", "False"), key='warm_start')
@@ -171,12 +189,27 @@ def main():
 
     if classifier == "XGBoost Classifier":
         st.sidebar.subheader("Model Hyperparameters")
-        n_estimators = st.sidebar.slider("Number of Trees in the Random Forest", 100, 4000, key='n_estimators')
+        n_estimators = st.sidebar.slider("Number of Trees in the XGBoost ensemble", 100, 4000, key='n_estimators')
         max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=5, key='max_depth')
         eta = st.sidebar.number_input("Learning Rate", 0.01, 10.0, step=0.01, key='eta')
+        colsample_bytree = st.sidebar.number_input("Percentage of features used per tree", 0.01, 1.0, step=0.01,
+                                                   key='colsample_bytree')
+        reg_alpha = st.sidebar.number_input("L1 regularization on leaf weights", 1, 10, step=1, key='reg_alpha')
+        reg_lambda = st.sidebar.number_input("L2 regularization on leaf weights", 1, 10, step=1, key='reg_lambda')
 
         metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
                                                                   "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Extreme Gradient Boosting(XGBoost) Classification Results")
+            y_pred, accuracy, models = model.XGB(train_x, test_x, train_y, test_y, n_estimators=n_estimators,
+                           max_depth=max_depth, eta=eta, colsample_bytree=colsample_bytree,
+                                                 reg_alpha=reg_alpha, reg_lambda=reg_lambda)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
 
 
 if __name__ == '__main__':
