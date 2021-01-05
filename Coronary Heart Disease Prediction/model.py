@@ -16,6 +16,14 @@ def LR(X_train, X_test, y_train, y_test, C, max_iter):
     return y_pred, accuracy, lr
 
 
+def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree):
+    svc = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
+    svc.fit(X_train, y_train)
+    y_pred = svc.predict(X_test)
+    accuracy = svc.score(X_test, y_test)
+    return y_pred, accuracy, svc
+
+
 def KNN(X_train, X_test, y_train, y_test, n, leaf_size, algorithm):
     knn = KNeighborsClassifier(n_neighbors=n, leaf_size=leaf_size, algorithm=algorithm)
     knn.fit(X_train, y_train)
@@ -58,13 +66,3 @@ def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators, colsampl
     y_pred = xgb.predict(X_test)
     accuracy = xgb.score(X_test, y_test)
     return y_pred, accuracy, xgb
-
-
-def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree):
-    svc = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
-    svc.fit(X_train, y_train)
-    y_pred = svc.predict(X_test)
-    accuracy = svc.score(X_test, y_test)
-    return y_pred, accuracy, svc
-
-
