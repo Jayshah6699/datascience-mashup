@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: gainsboro;
     background-color: #333;
     font-family: 'Oxygen', sans-serif;
 }
@@ -12,5 +12,5 @@ body {
 }
 
 
-#MainMenu {visibility: hidden;}
+// #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
