@@ -24,9 +24,9 @@ def KNN(X_train, X_test, y_train, y_test, n, leaf_size, algorithm):
     return y_pred, accuracy, knn
 
 
-def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, split):
+def DT(X_train, X_test, y_train, y_test, criterion, max_depth, leaf, max_features):
     dt = DecisionTreeClassifier(criterion=criterion, max_depth=max_depth,
-                                min_samples_leaf=leaf, min_samples_split=split)
+                                min_samples_leaf=leaf, max_features=max_features)
     dt.fit(X_train, y_train)
     y_pred = dt.predict(X_test)
     accuracy = dt.score(X_test, y_test)
