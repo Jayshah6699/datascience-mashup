@@ -110,8 +110,8 @@ def plot_feature_selection(scores):
 
 @st.cache(persist=True)
 def split_and_scale(data):
-    y = data['TenYearCHD']
-    X = data.drop(['TenYearCHD'], axis=1)
+    y = data['TenYearCHD'].values
+    X = data.drop(['TenYearCHD'], axis=1).values
     train_x, test_x, train_y, test_y = train_test_split(X, y, test_size=0.4, random_state=1)
 
     scaler = MinMaxScaler()
