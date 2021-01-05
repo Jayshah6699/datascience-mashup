@@ -61,10 +61,10 @@ def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators, colsampl
 
 
 def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree, ):
-    gnb = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
-    gnb.fit(X_train, y_train)
-    y_pred = gnb.predict(X_test)
-    accuracy = gnb.score(X_test, y_test)
-    return y_pred, accuracy, gnb
+    svc = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
+    svc.fit(X_train, y_train)
+    y_pred = svc.predict(X_test)
+    accuracy = svc.score(X_test, y_test)
+    return y_pred, accuracy, svc
 
 
