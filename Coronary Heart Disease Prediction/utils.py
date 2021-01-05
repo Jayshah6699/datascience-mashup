@@ -17,6 +17,8 @@ from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precisio
 # Web App
 import streamlit as st
 
+sns.set_context("paper", rc={"font.size": 8, "axes.titlesize": 8, "axes.labelsize": 5})
+
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -32,8 +34,8 @@ def preprocess(data):
     data.dropna(inplace=True)
 
     # Remove outliers
-    data = data[data['totChol']<600.0]
-    data = data[data['sysBP']<295.0]
+    data = data[data['totChol'] < 600.0]
+    data = data[data['sysBP'] < 295.0]
 
     # Resample data to reduce imbalance
     target1 = data[data['TenYearCHD'] == 1]
@@ -55,9 +57,9 @@ def visualize(viz_list, data):
         fig, axs = plt.subplots(nrows=tot_rows, ncols=tot_cols, figsize=(7*tot_cols, 7*tot_rows),
                             facecolor='w', constrained_layout=True)
         for i, var in enumerate(categorical_features):
-            row = i//tot_cols
-            pos = i%tot_cols
-            plot = sns.countplot(x=var, data=data, ax=axs[row][pos])
+            row = i // tot_cols
+            pos = i % tot_cols
+            sns.countplot(x=var, data=data, ax=axs[row][pos])
         st.pyplot()
 
     if "Numerical Visualisation" in viz_list:
@@ -72,7 +74,7 @@ def visualize(viz_list, data):
         for i, var in enumerate(numeric_features):
             row = i // tot_cols
             pos = i % tot_cols
-            plot = sns.kdeplot(x=var, data=data, ax=axs[row][pos])
+            sns.kdeplot(x=var, data=data, ax=axs[row][pos])
         st.pyplot()
 
 
