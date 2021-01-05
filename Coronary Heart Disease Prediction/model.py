@@ -60,7 +60,7 @@ def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators, colsampl
     return y_pred, accuracy, xgb
 
 
-def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree, ):
+def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree):
     svc = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
     svc.fit(X_train, y_train)
     y_pred = svc.predict(X_test)
