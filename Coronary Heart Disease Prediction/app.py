@@ -9,7 +9,7 @@ from sklearn.metrics import precision_score, recall_score
 import streamlit as st
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(page_title='Manual Parameter Tuner', layout='wide', initial_sidebar_state='auto')
+st.set_page_config(page_title='Manual Parameter Tuner', layout='centered', initial_sidebar_state='expanded')
 
 
 def main():
