@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from xgboost import XGBClassifier
-from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
 
 
 def LR(X_train, X_test, y_train, y_test, C, max_iter):
@@ -60,8 +60,8 @@ def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators, colsampl
     return y_pred, accuracy, xgb
 
 
-def GNB(X_train, X_test, y_train, y_test, C, gamma, kernel):
-    gnb = GaussianNB(C=C, gamma=gamma, kernel=kernel)
+def SVM(X_train, X_test, y_train, y_test, C, gamma, kernel, degree, ):
+    gnb = SVC(C=C, gamma=gamma, kernel=kernel, degree=degree)
     gnb.fit(X_train, y_train)
     y_pred = gnb.predict(X_test)
     accuracy = gnb.score(X_test, y_test)
