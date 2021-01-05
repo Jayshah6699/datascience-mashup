@@ -9,11 +9,12 @@ from sklearn.metrics import precision_score, recall_score
 import streamlit as st
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_page_config(page_title='Manual Parameter Tuner', layout='wide', initial_sidebar_state='auto')
 
 
 def main():
     utils.local_css("css/styles.css")
-    st.title("Heart Disease Prediction - Manual Parameter Tuning Visualizer")
+    st.title("Heart Disease Prediction - Manual Parameter Tuner")
     st.sidebar.title("Manual Parameter Tuning")
     st.markdown("### Machine Learning is not only about the algorithms you use but also about the different Parameters "
                 "assigned to each of them. The final model is heavily affected by the parameters used for a specific "
