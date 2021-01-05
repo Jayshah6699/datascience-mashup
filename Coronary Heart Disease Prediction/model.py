@@ -51,8 +51,9 @@ def GBC(X_train, X_test, y_train, y_test, n_estimators, max_depth, learning_rate
     return y_pred, accuracy, gbc
 
 
-def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators):
-    xgb = XGBClassifier(eta=eta, max_depth=max_depth, n_estimators=n_estimators)
+def XGB(X_train, X_test, y_train, y_test, eta, max_depth, n_estimators, colsample_bytree, reg_alpha, reg_lambda):
+    xgb = XGBClassifier(eta=eta, max_depth=max_depth, n_estimators=n_estimators, colsample_bytree=colsample_bytree,
+                        reg_alpha=reg_alpha, reg_lambda=reg_lambda)
     xgb.fit(X_train, y_train)
     y_pred = xgb.predict(X_test)
     accuracy = xgb.score(X_test, y_test)

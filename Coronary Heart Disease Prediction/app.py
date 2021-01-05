@@ -94,7 +94,7 @@ def main():
         st.sidebar.subheader("Model Hyperparameters")
         n = st.sidebar.number_input("n_neighbors (Number of nearest neighbors)", 1, 20, step=1, key='n')
         leaf_size = st.sidebar.slider("Leaf Size", 10, 200, key='leaf_size')
-        algorithm = st.sidebar.radio("Algorithm to use", ("Ball Tree", "KD Tree", "Auto"), key='algorithm')
+        algorithm = st.sidebar.radio("Algorithm to use", ("ball_tree", "kd_tree", "auto"), key='algorithm')
 
         metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
                                                                   "Precision-Recall Curve"))
@@ -113,7 +113,8 @@ def main():
         criterion = st.sidebar.radio("Criterion of splitting trees", ("gini", "entropy"), key='criterion')
         max_depth = st.sidebar.slider("Max depth of the tree", 1, 50, key='amx_depth')
         min_samples_leaf = st.sidebar.number_input("Minimum Leaf Samples", 1, 10, step=1, key='min_samples_leaf')
-        min_samples_split = st.sidebar.number_input("Minimum Split Samples", 1, 10, step=1, key='min_samples_split')
+        max_features = st.sidebar.radio("No. of features to consider during best split", ("auto", "sqrt", "log2"),
+                                        key='max_features')
 
         metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
                                                                   "Precision-Recall Curve"))
@@ -121,7 +122,7 @@ def main():
         if st.sidebar.button("Classify", key="classify"):
             st.subheader("Decision Tree Classification Results")
             y_pred, accuracy, models = model.DT(train_x, test_x, train_y, test_y, criterion=criterion, max_depth=max_depth,
-                                min_samples_leaf=min_samples_leaf, min_samples_split=min_samples_split)
+                                leaf=min_samples_leaf, max_features=max_features)
             st.write("Accuracy: ", accuracy.round(3))
             st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
             st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
@@ -131,10 +132,49 @@ def main():
 
     if classifier == "Random Forest Classifier":
         st.sidebar.subheader("Model Hyperparameters")
-        n_estimators = st.sidebar.number_input("This is the number of trees in the forest", 100, 5000, step=10,
-                                               key='n_estimators')
-        max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=2, key='max_depth')
+        n_estimators = st.sidebar.slider("Number of Trees in the Random Forest", 100, 4000, key='n_estimators')
+        max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=5, key='max_depth')
         bootstrap = st.sidebar.radio("Bootstrap samples when building trees", ("True", "False"), key='bootstrap')
+
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Random Forest Classification Results")
+            y_pred, accuracy, models = model.RF(train_x, test_x, train_y, test_y, n_estimators=n_estimators,
+                           max_depth=max_depth, bootstrap=bootstrap)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
+
+    if classifier == "Gradient Boosting Classifier":
+        st.sidebar.subheader("Model Hyperparameters")
+        n_estimators = st.sidebar.slider("Number of Trees in the Random Forest", 100, 4000, key='n_estimators')
+        max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=5, key='max_depth')
+        learning_rate = st.sidebar.number_input("Learning Rate", 0.01, 10.0, step=0.01, key='learning_rate')
+        warm_start = st.sidebar.radio("Reuse previous solution for more ensemble", ("True", "False"), key='warm_start')
+
+        metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
+                                                                  "Precision-Recall Curve"))
+
+        if st.sidebar.button("Classify", key="classify"):
+            st.subheader("Gradient Boosting Classification Results")
+            y_pred, accuracy, models = model.GBC(train_x, test_x, train_y, test_y, n_estimators=n_estimators,
+                           max_depth=max_depth, learning_rate=learning_rate, warm_start=warm_start)
+            st.write("Accuracy: ", accuracy.round(3))
+            st.write("Precision: ", precision_score(test_y, y_pred, labels=class_names).round(3))
+            st.write("Recall: ", recall_score(test_y, y_pred, labels=class_names).round(3))
+            utils.plot_metrics(metrics, models, test_x, test_y, class_names)
+
+
+    if classifier == "XGBoost Classifier":
+        st.sidebar.subheader("Model Hyperparameters")
+        n_estimators = st.sidebar.slider("Number of Trees in the Random Forest", 100, 4000, key='n_estimators')
+        max_depth = st.sidebar.number_input("The maximum depth of the tree", 1, 100, step=5, key='max_depth')
+        eta = st.sidebar.number_input("Learning Rate", 0.01, 10.0, step=0.01, key='eta')
+
         metrics = st.sidebar.multiselect("What matrix to plot?", ("Confusion Matrix", "ROC Curve",
                                                                   "Precision-Recall Curve"))
 
