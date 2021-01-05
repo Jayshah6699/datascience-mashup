@@ -17,7 +17,7 @@ from sklearn.metrics import plot_confusion_matrix, plot_roc_curve, plot_precisio
 # Web App
 import streamlit as st
 
-sns.set_context("paper", rc={"font.size": 8, "axes.titlesize": 8, "axes.labelsize": 5})
+sns.set_context("paper", rc={"font.size": 20, "axes.titlesize": 20, "axes.labelsize": 20})
 
 
 def local_css(file_name):
@@ -105,8 +105,9 @@ def feature_selection(data):
 
 def plot_feature_selection(scores):
     st.subheader("Chi-squared Score distribution of the best 10 features")
-    plt.figure(figsize=(15, 7), facecolor='w')
+    plt.figure(figsize=(12, 7), facecolor='w')
     sns.barplot(x='Feature', y='Score', data=scores, palette='BuGn_r')
+    plt.xticks(rotation=45)
     st.pyplot()
 
 
