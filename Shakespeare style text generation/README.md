@@ -24,7 +24,7 @@ The model designed to generate text in Shakespeare's style is a sequential model
 
 # Examples of some generated text
 > 1. The prince  of wales from such a field as this jest and had it in this reproach be done may have it. <br>
-> 2. My dear Othello fight picked but all i see you well and even to like thee to my grave my friends and the very good grace of dead talbot come in such a courtesy swain aside to sack.
+> 2. My dear Othello fight picked but all I see you well and even to like thee to my grave my friends and the very good grace of dead talbot come in such a courtesy swain aside to sack.
 
 # Dataset source
 > <a href="https://www.kaggle.com/kingburrito666/shakespeare-plays?select=Shakespeare_data.csv">Shakespeare plays: All of shakespeares plays, characters, lines, and acts in one CSV</a>
