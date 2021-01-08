@@ -1,7 +1,7 @@
 # Datascience Mashup
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+
 In this repo I will try to gather all of the projects related to data science with clean datasets amalgamated with high accuracy models to solve real world problems.
 ---
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)      
@@ -33,21 +33,21 @@ Thanks goes to these wonderful people ✨✨:
    <!--   ROW 1 -->
    <tr>
       <td align="center">
-         <a href="https://github.com/IndraP24">
-         <img src="https://avatars1.githubusercontent.com/u/64627762?v=4" width="100px" alt=""/><br />
-         <sub><b>IndraP24</b></sub>
-         </a><br />
-         <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=IndraP24">
-         💻
-         </a>
-      </td>
-      <td align="center">
          <a href="https://github.com/Jayshah6699">
          <img src="https://avatars0.githubusercontent.com/u/38597612?v=4" width="100px" alt=""/><br />
          <sub><b>Jayshah6699</b></sub>
          </a><br />
          <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=Jayshah6699">
          👑 Author
+         </a>
+      </td>
+            <td align="center">
+         <a href="https://github.com/IndraP24">
+         <img src="https://avatars1.githubusercontent.com/u/64627762?v=4" width="100px" alt=""/><br />
+         <sub><b>IndraP24</b></sub>
+         </a><br />
+         <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=IndraP24">
+         💻
          </a>
       </td>
       <td align="center">
