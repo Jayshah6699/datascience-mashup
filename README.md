@@ -2,10 +2,9 @@
 
 ![Makes people smile](https://forthebadge.com/images/badges/makes-people-smile.svg)
 ![Made with love](https://forthebadge.com/images/badges/built-with-love.svg)
-![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-<img src=https://d6vdma9166ldh.cloudfront.net/media/images/4594dcf8-a8c5-4fa7-a6d4-bab2c9081041.jpg>
+<img src=https://www.uat.edu/media/data-science-banner.png>
 
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
 [![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
@@ -76,8 +75,8 @@ You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
 
 You can find our License [here](/LICENSE.md)
 
-## :heart: Owner
-Made with :heart:&nbsp; by [Jay Shah](https://github.com/Jayshah6633)
+##  Owner
+Made with :handshake: by [Jay Shah](https://github.com/Jayshah6633)
 
 
 ## Contributors 🌟
