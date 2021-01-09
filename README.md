@@ -1,30 +1,84 @@
 # Datascience Mashup
 
+![Makes people smile](https://forthebadge.com/images/badges/makes-people-smile.svg)
+![Made with love](https://forthebadge.com/images/badges/built-with-love.svg)
+![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+<img src=https://d6vdma9166ldh.cloudfront.net/media/images/4594dcf8-a8c5-4fa7-a6d4-bab2c9081041.jpg>
+
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
 [![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
 
-In this repo I will try to gather all of the projects related to data science with clean datasets amalgamated with high accuracy models to solve real world problems.
+## :sunglasses:  Overview: :point_down:
+
+Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data. Data science practitioners apply machine learning algorithms to numbers, text, images, video, audio, and more to produce artificial intelligence (AI) systems to perform tasks that ordinarily require human intelligence. In turn, these systems generate insights which analysts and business users can translate into tangible business value. Data Science is important because more and more companies are coming to realize the importance of data science, AI, and machine learning. Regardless of industry or size, organizations that wish to remain competitive in the age of big data need to efficiently develop and implement data science capabilities or risk being left behind.
+
+The goal of this project is to have in a single place all data science projects with clean datasets amalgamated with high accuracy models to solve real world problems. We aim to achieve this collaboratively, so feel free to contribute in any way you want, just make sure to follow the contribution guidelines.
+
+<img src=https://miro.medium.com/max/1104/0*8BYyKQB9Jjzbc9yD> 
+
+## Project Contents
+
+
+- [Adult Census Income](https://github.com/Jayshah6699/datascience-mashup/tree/main/Adult%20Census%20Income)
+
+- [BreastCancerPrediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/BreastCancerPrediction)
+
+- [Coronary Heart Disease Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Coronary%20Heart%20Disease%20Prediction)
+
+- [Dogs vs Cats](https://github.com/Jayshah6699/datascience-mashup/tree/main/Dogs%20vs%20Cats)
+
+- [Facegenderandagedetector](https://github.com/Jayshah6699/datascience-mashup/tree/main/Facegenderandagedetector)
+
+- [Graphs for Visualisation](https://github.com/Jayshah6699/datascience-mashup/tree/main/Graphs%20for%20Visualisation)
+
+- [Handwritten Digits Recognition](https://github.com/Jayshah6699/datascience-mashup/tree/main/Handwritten%20Digits%20Recognition)
+
+- [House_Price_Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/House_Price_Prediction)
+
+- [IMDB sentimental analysis](https://github.com/Jayshah6699/datascience-mashup/tree/main/IMDB%20sentimental%20analysis)
+
+- [RestaurantReview](https://github.com/Jayshah6699/datascience-mashup/tree/main/RestaurantReview)
+
+- [Shakespeare style text generation](https://github.com/Jayshah6699/datascience-mashup/tree/main/Shakespeare%20style%20text%20generation)
+
+- [Stock Price Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Stock%20Price%20Prediction)
+
+- [Text Classification using Naive Bayes](https://github.com/Jayshah6699/datascience-mashup/tree/main/Text%20Classification%20using%20Naive%20Bayes)
+
+- [Concrete Strength Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/concrete%20strength%20prediction)
+
+- [Dataset-Refine](https://github.com/Jayshah6699/datascience-mashup/tree/main/dataset-refine)
+
+
+## :handshake: Contribution
+Want to contribute take a look <a href="https://github.com/Jayshah6699/datascience-mashup/blob/main/CONTRIBUTING.md">here</a> and Feel free to **file a new issue** with a respective title and description on the the [Datascience-mashup](https://github.com/Jayshah6699/datascience-mashup/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
+### Any sort of Contributions are always welcomed :tada:
+
 ---
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)      
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues)
-[![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup.svg?logo=github)](https://github.com/Jayshah6699/datascience-mashup/network/members)
-[![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup.svg?logo=github)](https://github.com/Jayshah6699/datascience-mashup/stargazers)
-[![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup.svg?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues)
----
-## :point_right: Support me using sponsorship links!
+## :point_right: If you like what I do, maybe conside Support me using sponsorship links!
+
+## Open Source Programs
+This Project is part of the following programs :
+
+
+**[DevScript Winter of Code](https://devscript.tech/woc/)**
+
+<img src="https://user-images.githubusercontent.com/57671048/103410240-809bcc80-4b90-11eb-894c-6d3980d1c5d8.png" width="150" height="150">
+
 
 ## :point_down: Code of Conduct
 
 You can find our Code of Conduct [here](/CODE_OF_CONDUCT.md).
-## :handshake: Contribution
-Feel free to **file a new issue** with a respective title and description on the the [Datascience-mashup](https://github.com/Jayshah6699/datascience-mashup/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
 
-## Owner
-Made by [Jay Shah](https://github.com/Jayshah6633)
+## :point_down: License
 
-## New to contributions?
+You can find our License [here](/LICENSE.md)
 
-Head over to [here](/CONTRIBUTING.md).
+## :heart: Owner
+Made with :heart:&nbsp; by [Jay Shah](https://github.com/Jayshah6633)
+
 
 ## Contributors 🌟
 
