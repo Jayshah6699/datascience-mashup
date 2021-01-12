@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Car Price Prediction </title>
+<style>
+*{
+margin:0;
+padding:0;
+}
+
+body,html{
+width:100%;
+height:100%
+}
+
+body{
+background-image: url("/static/css/abcd1.jpg");
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+font-family:sans-serif;
+margin:40px;    
+ }
+    
+.regform{
+width:800px;
+background-color:rgba(63, 70, 66, 0.8);
+margin:auto;
+color:#FFFFFF;
+padding:10px 0px 10px 0px;
+text-align:center;
+border-radius:15px 15px 0px 0px;
+}
+
+.main{
+background-color:rgba(90, 94, 92, 0.7);
+width:800px;
+margin:auto;
+}
+
+form{
+padding:40px;
+}
+
+#name{
+widht:100%;
+height:650px;
+}
+.yearlabel,.pricelabel,.distancelabel,.ownerlabel,.fuellabel,.sellerlabel,.translabel{
+margin-left:15px;
+margin-top:20px;
+width:125px;
+color:white;
+font-size:20px;
+font-weight:700;
+}
+
+.yearname,.pricename,.kmsname,.ownername{
+position:relative;
+left:10px;
+line-height:40px;
+margin-bottom:35px;
+border-radius:6px;
+padding:0 22px;
+font-size:14px;
+}
+.yearname{
+margin-left:250px;
+}
+
+.pricename{
+margin-left:40px;
+}
+.kmsname{
+margin-left:120px;
+}
+.ownername{
+margin-left:2px;
+margin-bottom:35px;
+}
+
+.option,.option1,.option2{
+position:relative;
+left:200px;
+margin-bottom:35px;
+margin-left:8px;
+line-height:40px;
+width:220px;
+border-radius:6px;
+paddong:0 22px;
+font-size:14px;
+color:#555;
+}
+
+.option1{
+margin-left:-5px;
+}
+
+.option2{
+margin-left:-80px;
+}
+button{
+background-color:#3BAF9F;
+display:block;
+margin:20px 0px 0px 200px;
+text-align:center;
+border-radius:12px;
+border:2px solid #366473;
+padding:14px 110px;
+outline:none;
+color:white;
+cursor:pointer;
+transition:0.25px;
+}
+
+button:hover{
+background-color:#5390F5;
+}
+span{
+color:#3182EB;
+font-size:18px;
+text-align:center;
+}
+</style>
+
+</head>
+
+<body>
+
+ <div class="regform"><h1>Car Price Prediction analysis</h1></div>
+        <div class="main">
+        <form action="{{ url_for('predict')}}" method="post">
+          <div id="name">           
+
+            
+            <label class="yearlabel">Enter Year</label>
+            <input  class="yearname" name="year_name" type="number"><br>
+            
+    
+            <label class="pricelabel">Enter Showroom Price(In Lakhs)</label>
+            <input class="pricename" name="Present_Price" required="required"><br>
+           
+            
+            <label class="distancelabel">Enter Kilometers Drived</label>
+            <input class="kmsname" name="Kms_Driven" required="required"><br>
+           
+            <label class="ownerlabel">Enter Number Of Owners(0 or 1 or 2)</label>
+            <input class="ownername" name="owner" required="required"><br>
+           
+           
+            <label class="fuellabel">Select Fuel Type</label>
+            <select class="option" name="Fuel_Type_Petrol" id="fuel" required="required">
+            <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="CNG">CNG</option>
+            </select><br>
+            
+            
+            <label class="sellerlabel">Select Seller Type</label>
+            <select class="option1" name="Seller_Type_Individual" id="seller" required="required">
+                <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option value="Dealer">Dealer</option>
+                <option value="Individual">Individual</option>
+            </select><br>
+            
+           <label class="translabel">Select Transmission Type</label>
+            <select class="option2" name="Transmission_Mannual" id="research" required="required">
+            <option disabled="disabled" selected="selected">--Choose Option</option>
+                <option value="Mannual">Manual Car</option>
+                <option value="Automatic">Automatic Car</option>
+            </select><br>
+            
+            <br><br>
+            <button id="sub" type="submit ">Calculate the Selling Price</button>
+            <br>
+    </div>
+      </form>
+        <br>
+     <span class="result"> <br><br><h3>{{ prediction_text }}<h3> </span>
+    </div>
+
+</body>
+</html>
