@@ -31,5 +31,5 @@ The results obtained from this project will be helpful for the *Movie Production
 rubrics of their Movie Idea before it moves on to the Production Phase.
 
 For detailed information, head over to:
-1. [Project Report](https://github.com/IndraP24/Sem-3-Project-TMDb-Movie-Analysis-and-Modeling/blob/main/Project%20Report%20_%20Sem%203.pdf)
+1. [Project Report](https://github.com/IndraP24/datascience-mashup/blob/main/TMDb%20Movie%20Analysis%20and%20Prediction/Project%20Report%20_%20Sem%203.pdf)
 2. [Project Review Presentation](https://github.com/IndraP24/datascience-mashup/blob/main/TMDb%20Movie%20Analysis%20and%20Prediction/Final%20Review%20-%20Project%20Slides.pdf)
