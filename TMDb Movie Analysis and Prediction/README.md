@@ -25,13 +25,26 @@ In this project, I will use this dataset to **clean, analyze and determine** whe
 a movie can predict the total revenue of a movie. I will then attempt to predict whether a movie's
 revenue will exceed its budget (profitability). Also, I will test **two** different models for each
 prediction to check which predicts our target variable better. To sum it up, 
-* For Predicting Revenue (Regression):
-  * Linear Regression
-  * Random Forest Regression
-
-* For Predicting Profitability (Classification):
-  * Logistic Regression
-  * Random Forest Classification
+The project is divided into 3 parts:
+* Data Preprocessing:
+  * Importing Libraires
+  * Reading the Dataset
+  * Defining feature and target variables
+  * Removing null values
+  * Feature Engineering - Feature Selection and Transformation
+  * Storing the transformed Dataset
+* Exploratory Data Analysis:
+  * Descriptive Statistical Analysis
+  * Data Visualizations
+  * Data Trend Analysis
+* Predictive Modelling & Evaluation (Using 10-fold Cross Validation): 
+  * For Predicting Revenue (Regression):
+    * Linear Regression
+    * Random Forest Regression
+  * For Predicting Profitability (Classification):
+    * Logistic Regression
+    * Random Forest Classification
+  * Evaluation and Analysis
 
 
 The results obtained from this project will be helpful for the *Movie Production Teams* to analyze the
