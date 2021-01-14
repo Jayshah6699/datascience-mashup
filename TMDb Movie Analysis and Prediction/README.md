@@ -4,7 +4,7 @@
 ### Abstract:
 
 In this machine learning project, I cleaned, analyzed, and predicted two target variables – both **revenue**
-(numerical) and **profitability** (categorical), from the dataset of * **THE MOVIE DATABASE (TMDb).** *
+(numerical) and **profitability** (categorical), from the dataset of **THE MOVIE DATABASE (TMDb).**
 
 ### Aim: 
 
