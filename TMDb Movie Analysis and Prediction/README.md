@@ -14,10 +14,9 @@ a movie before its production.
 
 ### Dataset:
 
-The dataset contains around 5000 movies with 22 features and is obtained from Kaggle [1].
-The information available about each movie include its budget, revenue generated, genres, rating, vote
-count, popularity, actors and actresses and any more. However, I used an unclean version of the dataset
-for this project.
+The [movie dataset on which this case study is based](https://www.kaggle.com/tmdb/tmdb-movie-metadata) is a database of 5000 movies catalogued by [The Movie Database (TMDb)](https://www.themoviedb.org/?language=en). The information available about each movie include its budget, revenue generated, genres, rating, vote
+count, popularity, actors and actresses and any more. However, I used an [unclean version](https://courses.edx.org/asset-v1:HarvardX+PH526x+2T2019+type@asset+block@movie_data.csv) of the dataset for this project from a HarvardX Course asset.
+
 
 ### Implementation:
 
