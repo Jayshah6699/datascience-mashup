@@ -1,4 +1,6 @@
-<h1 align="center">Automatic Review Analyzer</h1>
+<h1 align="center">
+Amazon Reviews Sentiment Analysis using Linear Classifiers
+</h1>
 
 Implemented and compared three types of linear classifiers to use for **sentiment analysis** of Amazon product reviews.
 
@@ -25,7 +27,7 @@ For this project, I used **Python 3.6** with some additional libraries. I strong
 
 1. *Note on software: For this project, you will need the **NumPy** numerical toolbox, and the **matplotlib** plotting toolbox.*
 
-2. Clone/download the repo and unzip into a working directory. The *Automatic Sentiment Analysis from Reviews using Linear Classifiers* folder contains the following:
+2. Clone/download the repo and unzip into a working directory. The *Amazon Reviews Sentiment Analysis using Linear Classifiers* folder contains the following:
   * *dataset* folder which contains various data files in .tsv format
   * **project1.py** contains various useful functions and function templates that I used to implement the learning algorithms.
   * **main.py** is a script skeleton where these functions are called ran my experiments.
