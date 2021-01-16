@@ -8,8 +8,8 @@ We have used The Hunger Games as a sample text file to generate word cloud. You 
 
 Below are the different word cloud outputs for some sample images:
 
-![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/griffin.jpg)
-![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/griffin_out.png)
+![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/mousetache.jpg)
+![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/moustache_out.png)
 
 ![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/star.jpg)
 ![alt text](https://github.com/gargnityansh/datascience-mashup/blob/wordcloud/wordcloud/star_out.png)
