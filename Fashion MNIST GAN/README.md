@@ -8,7 +8,7 @@ The two networks are called Generator and Discriminator. A generator ("the artis
 
 <h2>Model Architecture</h2>
 
-<b>The notebook <i>DCGAN_fashionMNIST.ipnyb</i> implements GAN on fashion mnist dataset. <br>
+<b>The notebook <i>DCGAN_fashionMNIST.ipynb</i> implements GAN on fashion mnist dataset. <br>
 The dataset has been loaded from <a href="https://www.tensorflow.org/api_docs/python/tf/keras/datasets/fashion_mnist/load_data">tf.keras.datasets.fashion_mnist.load_data</a> module.</b><br>
 <br>The architecture of Generator and Discriminator models are as follows:
 
