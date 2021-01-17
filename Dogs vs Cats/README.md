@@ -15,3 +15,25 @@ I have used the dataset of the project from Kaggle. The **train folder** contain
 - opencv : `pip install opencv-python`
 
 ## About the Model
+- Importing datasets from Kaggle
+
+- Importing libraries
+
+- Visualisation of the dataset
+<img src="https://user-images.githubusercontent.com/62782231/104853225-6cdcbe00-5925-11eb-93ab-0327f1f9134a.png">
+
+- Making a model using Keras
+
+- Compiling the Model
+
+- Training the model
+<img src = "https://user-images.githubusercontent.com/62782231/104853759-ec1fc100-5928-11eb-88f5-a31e3b0e49a1.png">
+
+- Saving the Model
+
+- Summary of the model
+
+- Plotting the Train and Validation Curves
+<img src = "https://user-images.githubusercontent.com/62782231/104853801-3c971e80-5929-11eb-88de-0ff55b91d7ab.png">
+
+
