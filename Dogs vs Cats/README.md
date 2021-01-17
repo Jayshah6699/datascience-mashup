@@ -36,4 +36,6 @@ I have used the dataset of the project from Kaggle. The **train folder** contain
 - Plotting the Train and Validation Curves
 <img src = "https://user-images.githubusercontent.com/62782231/104853801-3c971e80-5929-11eb-88de-0ff55b91d7ab.png">
 
+## Output of the Model
 
+<img src="https://user-images.githubusercontent.com/62782231/104853903-ee364f80-5929-11eb-8982-87592ca12ecc.png">
