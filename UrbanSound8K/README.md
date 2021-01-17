@@ -1,5 +1,5 @@
 Classify sounds using UrbansSound8K in the following categories:
-0 = air_conditioner
+*0 = air_conditioner
 1 = car_horn
 2 = children_playing
 3 = dog_bark
