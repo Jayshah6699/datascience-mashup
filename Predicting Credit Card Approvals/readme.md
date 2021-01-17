@@ -2,9 +2,9 @@ It is an automatic credit card approval predictor made using machine learning me
 
 The features in a CSV file are Gender, Age, Debt, Married, Ethnicity, etc.
 
-The logistic regression model is the algorithm used.Logistic Regression gives 83.33% accuracy on predicting the credit card approvals
+The logistic regression model is the algorithm used.Logistic Regression gives 100% accuracy on predicting the credit card approvals
 
-GridSearchCV() is used to find the best-achieved score and the respective best parameters.Improved the accuracy from 83.33% to 85.51%
+GridSearchCV() is used to find the best-achieved score and the respective best parameters.Improved the accuracy using it.
 
 Dataset used: http://archive.ics.uci.edu/ml/datasets/credit+approval
 
