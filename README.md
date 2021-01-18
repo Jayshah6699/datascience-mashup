@@ -406,4 +406,13 @@ Thanks goes to these wonderful people ✨✨:
       💻
       </a>
    </td>
+   <td align="center">
+      <a href="https://github.com/Amit366">
+      <img src="https://avatars0.githubusercontent.com/u/60662775?s=460&v=4" width="100px" alt=""/><br />
+      <sub><b>Amit366</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
 </table>
