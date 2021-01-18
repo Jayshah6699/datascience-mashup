@@ -58,8 +58,6 @@ The goal of this project is to have in a single place all data science projects 
 
 - [Predicting-Heart-Disease-master](https://github.com/Jayshah6699/datascience-mashup/tree/main/Predicting-Heart-Disease-master)
 
-- [Project Interface](https://github.com/Jayshah6699/datascience-mashup/tree/main/Project%20Interface)
-
 - [Rainfall Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Rainfall%20Prediction)
 
 - [RestaurantReview](https://github.com/Jayshah6699/datascience-mashup/tree/main/RestaurantReview)
@@ -75,8 +73,6 @@ The goal of this project is to have in a single place all data science projects 
 - [Traffic Signs Recognition](https://github.com/Jayshah6699/datascience-mashup/tree/main/Traffic%20Signs%20Recognition)
 
 - [UrbanSound8K](https://github.com/Jayshah6699/datascience-mashup/tree/main/UrbanSound8K)
-
-- [assets/logos](https://github.com/Jayshah6699/datascience-mashup/tree/main/assets/logos)
 
 - [car_price_pred_ai](https://github.com/Jayshah6699/datascience-mashup/tree/main/car_price_pred_ai)
 
