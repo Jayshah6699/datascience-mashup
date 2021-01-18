@@ -4,7 +4,7 @@ This Project is based on **Convolutional Neural Networks**. Python Programming l
 
 ## Dataset
 
-I have trained the dataset from Kaggle Competition. The dataset comprises of meta folder, train folder and test folder and csv files. There are more than 40 classes and 50,000 images in the dataset.
+I have trained the dataset from Kaggle Competition. The dataset comprises of meta folder, train folder and test folder and csv files. There are ***more than 40 classes and 50,000 images*** in the dataset.
 
 [Link for Traffic Signs Recognition Model Dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 
