@@ -5,8 +5,10 @@
 #### The objective of the project is to perform data visualization techniques to perform data visualization techniques to understand the insights of the data. Machine Learning often required to getting the understanding of the data and it's insights. 
 #### This project aims apply various python tools to get a visual understanding of the data and clean it to make it ready to apply machine learning operation on it.
 
+
 ## Description :
 #### This is a notebook for visualization of various feature which are the sales price of houses.
+
 
 ## Usage :
 #### - Download the repo
@@ -14,12 +16,13 @@
 #### - Load train and test data
 #### - The notebook contain all the further markdown details(like- Visualization of dataset; Multi-variaate Analysis; Imputation and Wraingling; and Modelling).
 
+
 ## How to Contribute:
-### 1. Take a look at the Existing Issues or create your own Issues!
-### 2. Preferably, you cannot work on any issue that is not assigned to you. Wait for the Issue to be assigned to you after which you can start working on it.
-### 3.Fork the Repo and create a Branch for any Issue that you are working upon.
-### 4. Make your changes.
-### 5. Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
+#### 1. Take a look at the Existing Issues or create your own Issues.
+#### 2. Preferably, you connot work on any issue that is not assigned to you. Wait for the Issues or create your own Issue.
+#### 3. Fork the Repo and create a Branch for any Issue that you are working upon.
+#### 4. Make your changes.
+#### 5. Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 
 #### For more details visit  [CONTRIBUTING.md](https://github.com/Jayshah6699/datascience-mashup/blob/main/CONTRIBUTING.md)
 
@@ -29,3 +32,5 @@
 
 
 ## Authors
+
+
