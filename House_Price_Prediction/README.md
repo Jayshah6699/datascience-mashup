@@ -2,19 +2,23 @@
 
 
 ## Introduction :
-#### The objective of the project is to perform data visualization techniques to perform data visualization techniques to understand the insights of the data. Machine Learning often required to getting the understanding of the data and it's insights. 
-#### This project aims apply various python tools to get a visual understanding of the data and clean it to make it ready to apply machine learning operation on it.
+#### The objective of the project is to perform data visualization techniques to perform data visualization techniques to understand the insights of the data. Machine Learning is often required to getting the understanding of the data and it's insights. 
+#### This project aims to apply various python tools to get a visual understanding of the data and clean it to make it ready to apply machine learning operation on it.
+
+![](Img004.jpg)
 
 
 ## Description :
 #### This is a notebook for visualization of various feature which are the sales price of houses.
 
+![](Img003.jpg)
+
 
 ## Usage :
-#### - Download the repo
-#### - Import all the libraries that will be used to load train and test datasets and data manipulation.
-#### - Load train and test data
-#### - The notebook contain all the further markdown details(like- Visualization of dataset; Multi-variaate Analysis; Imputation and Wraingling; and Modelling).
+#### - Download the repo ;
+#### - Import all the libraries that will be used to load train and test datasets and data manipulation ;
+#### - Load train and test data ;
+#### - The notebook contain all the further markdown details(like- Visualization of dataset; Multi-variate Analysis; Imputation and Wraingling; and Modelling) that explains the project.
 
 
 ## How to Contribute:
@@ -24,13 +28,10 @@
 #### 4. Make your changes.
 #### 5. Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 
-#### For more details visit  [CONTRIBUTING.md](https://github.com/Jayshah6699/datascience-mashup/blob/main/CONTRIBUTING.md)
+#### For more details visit  [CONTRIBUTING.md](https://github.com/Jayshah6699/datascience-mashup/blob/main/CONTRIBUTING.md).
 
 
 ## Code of Conduct
-#### This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/Jayshah6699/datascience-mashup/blob/main/CODE_OF_CONDUCT.md)
-
-
-## Authors
+#### This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/Jayshah6699/datascience-mashup/blob/main/CODE_OF_CONDUCT.md).
 
 
