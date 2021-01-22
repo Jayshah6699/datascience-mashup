@@ -82,3 +82,13 @@ and the output will be:
 $ ../data/samples/iza_meu_talisma.mp3 is a pop song
 $ most likely genres are: [('pop', 0.43), ('hiphop', 0.39), ('country', 0.08)]
 ```
+
+## Streamlit app
+
+## Initial screen
+![](Streamlit_app/mus1_output.PNG)
+
+
+## After selecting the music
+
+![](Streamlit_app/mus2_output.PNG)
