@@ -6,8 +6,20 @@
 
 <img src=https://www.uat.edu/media/data-science-banner.png>
 
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](https://img.shields.io/github/contributors/Jayshah6699/datascience-mashup)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) 
+ [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) 
+ [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) 
+ [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) 
+ [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) 
+ [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) 
+ ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
+[![Contributors count](https://img.shields.io/github/contributors/Jayshah6699/datascience-mashup.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/graphs/contributors/)
+[![GitHub license](https://img.shields.io/github/license/Jayshah6699/datascience-mashup.svg)](https://github.com/Jayshah6699/datascience-mashup/blob/master/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/Jayshah6699/datascience-mashup/total.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/releases/)
+![Profile views](https://gpvc.arturio.dev/Jayshah6699)
+[![HitCount](http://hits.dwyl.io/Jayshah6699/badges.svg)](http://hits.dwyl.io/Jayshah6699/badges)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## :sunglasses:  Overview: :point_down:
 
