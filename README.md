@@ -18,7 +18,6 @@
 [![GitHub license](https://img.shields.io/github/license/Jayshah6699/datascience-mashup.svg)](https://github.com/Jayshah6699/datascience-mashup/blob/master/LICENSE)
 [![Github all releases](https://img.shields.io/github/downloads/Jayshah6699/datascience-mashup/total.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/releases/)
 ![Profile views](https://gpvc.arturio.dev/Jayshah6699)
-[![HitCount](http://hits.dwyl.io/Jayshah6699/badges.svg)](http://hits.dwyl.io/Jayshah6699/badges)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## :sunglasses:  Overview: :point_down:
