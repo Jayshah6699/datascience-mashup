@@ -18,17 +18,17 @@ A flask web app that predict the prices of cars using machine learning.
 
 
 ## Requirements
-### Flask==1.1.2
-### gunicorn==20.0.4
-### itsdangerous==1.1.0
-### Jinja2==2.11.2
-### MarkupSafe==1.1.1
-### Werkzeug==1.0.1
-### numpy>=1.9.2
-### scipy>=0.15.1
-### scikit-learn>=0.18
-### matplotlib>=1.4.3
-### pandas>=0.19
+#### Flask==1.1.2
+#### gunicorn==20.0.4
+#### itsdangerous==1.1.0
+#### Jinja2==2.11.2
+#### MarkupSafe==1.1.1
+#### Werkzeug==1.0.1
+#### numpy>=1.9.2
+#### scipy>=0.15.1
+#### scikit-learn>=0.18
+#### matplotlib>=1.4.3
+#### pandas>=0.19
 
 ## How to Contribute:
 ### 1. Take a look at the Existing Issues or create your own Issues!
@@ -44,4 +44,4 @@ A flask web app that predict the prices of cars using machine learning.
 ### This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/Jayshah6699/datascience-mashup/blob/main/CODE_OF_CONDUCT.md)
 
 
-### Authors
+
