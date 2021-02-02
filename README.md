@@ -6,8 +6,19 @@
 
 <img src=https://www.uat.edu/media/data-science-banner.png>
 
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](https://img.shields.io/github/contributors/Jayshah6699/datascience-mashup)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) 
+ [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) 
+ [![Stargazers](https://img.shields.io/github/stars/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/stargazers) 
+ [![Issues](https://img.shields.io/github/issues/Jayshah6699/datascience-mashup?logo=github)](https://github.com/Jayshah6699/datascience-mashup/issues) 
+ [![Pull Requests](https://img.shields.io/github/issues-pr/Jayshah6699/datascience-mashup?color=blue&logo=github)](https://github.com/Jayshah6699/datascience-mashup/pulls) 
+ [![watchers](https://img.shields.io/github/watchers/Jayshah6699/datascience-mashup?style=social)](https://github.com/Jayshah6699/datascience-mashup/watchers) 
+ ![GitHub repo size](https://img.shields.io/github/repo-size/Jayshah6699/datascience-mashup?logo=github&style=social)
+[![Contributors count](https://img.shields.io/github/contributors/Jayshah6699/datascience-mashup.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/graphs/contributors/)
+[![GitHub license](https://img.shields.io/github/license/Jayshah6699/datascience-mashup.svg)](https://github.com/Jayshah6699/datascience-mashup/blob/master/LICENSE)
+[![Github all releases](https://img.shields.io/github/downloads/Jayshah6699/datascience-mashup/total.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/releases/)
+![Profile views](https://gpvc.arturio.dev/Jayshah6699)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 ## :sunglasses:  Overview: :point_down:
 
@@ -22,13 +33,25 @@ The goal of this project is to have in a single place all data science projects 
 
 - [Adult Census Income](https://github.com/Jayshah6699/datascience-mashup/tree/main/Adult%20Census%20Income)
 
+- [Amazon Reviews Sentiment Analysis using Linear Classifiers](https://github.com/Jayshah6699/datascience-mashup/tree/main/Amazon%20Reviews%20Sentiment%20Analysis%20using%20Linear%20Classifiers)
+
+- [Apple Stock Price Detection](https://github.com/Jayshah6699/datascience-mashup/tree/main/Apple%20Stock%20Price%20Detection)
+
 - [BreastCancerPrediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/BreastCancerPrediction)
 
 - [Coronary Heart Disease Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Coronary%20Heart%20Disease%20Prediction)
 
+- [Different visualisations](https://github.com/Jayshah6699/datascience-mashup/tree/main/Different%20visualisations)
+
 - [Dogs vs Cats](https://github.com/Jayshah6699/datascience-mashup/tree/main/Dogs%20vs%20Cats)
 
+- [Earthquake Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Earthquake%20Prediction)
+
 - [Facegenderandagedetector](https://github.com/Jayshah6699/datascience-mashup/tree/main/Facegenderandagedetector)
+
+- [Fake news detector](https://github.com/Jayshah6699/datascience-mashup/tree/main/Fake%20news%20detector)
+
+- [Fashion MNIST GAN](https://github.com/Jayshah6699/datascience-mashup/tree/main/Fashion%20MNIST%20GAN)
 
 - [Graphs for Visualisation](https://github.com/Jayshah6699/datascience-mashup/tree/main/Graphs%20for%20Visualisation)
 
@@ -38,17 +61,39 @@ The goal of this project is to have in a single place all data science projects 
 
 - [IMDB sentimental analysis](https://github.com/Jayshah6699/datascience-mashup/tree/main/IMDB%20sentimental%20analysis)
 
+- [IrisFlower(DT)](https://github.com/Jayshah6699/datascience-mashup/tree/main/IrisFlower(DT))
+
+- [Mall Customers Segmentation using clustering](https://github.com/Jayshah6699/datascience-mashup/tree/main/Mall%20Customers%20Segmentation%20using%20clustering)
+
+- [Predict Employee Turnover with scikit-learn](https://github.com/Jayshah6699/datascience-mashup/tree/main/Predict%20Employee%20Turnover%20with%20scikit-learn)
+
+- [Predicting-Heart-Disease-master](https://github.com/Jayshah6699/datascience-mashup/tree/main/Predicting-Heart-Disease-master)
+
+- [Rainfall Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Rainfall%20Prediction)
+
 - [RestaurantReview](https://github.com/Jayshah6699/datascience-mashup/tree/main/RestaurantReview)
 
 - [Shakespeare style text generation](https://github.com/Jayshah6699/datascience-mashup/tree/main/Shakespeare%20style%20text%20generation)
 
 - [Stock Price Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/Stock%20Price%20Prediction)
 
+- [TMDb Movie Analysis and Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/TMDb%20Movie%20Analysis%20and%20Prediction)
+
 - [Text Classification using Naive Bayes](https://github.com/Jayshah6699/datascience-mashup/tree/main/Text%20Classification%20using%20Naive%20Bayes)
+
+- [Traffic Signs Recognition](https://github.com/Jayshah6699/datascience-mashup/tree/main/Traffic%20Signs%20Recognition)
+
+- [UrbanSound8K](https://github.com/Jayshah6699/datascience-mashup/tree/main/UrbanSound8K)
+
+- [car_price_pred_ai](https://github.com/Jayshah6699/datascience-mashup/tree/main/car_price_pred_ai)
 
 - [Concrete Strength Prediction](https://github.com/Jayshah6699/datascience-mashup/tree/main/concrete%20strength%20prediction)
 
 - [Dataset-Refine](https://github.com/Jayshah6699/datascience-mashup/tree/main/dataset-refine)
+
+- [titanic-survivals](https://github.com/Jayshah6699/datascience-mashup/tree/main/titanic-survivals)
+
+- [weather](https://github.com/Jayshah6699/datascience-mashup/tree/main/weather)
 
 
 ## :handshake: Contribution
@@ -269,5 +314,116 @@ Thanks goes to these wonderful people ✨✨:
       💻
       </a>
    </td>
+   <td align="center">
+      <a href="https://github.com/sanjay270899">
+      <img src="https://avatars3.githubusercontent.com/u/43892590?s=400&u=90093ab2ab5d924e910f261abc1fe110bd645cfa&v=4" width="100px" alt=""/><br />
+      <sub><b>sanjay270899</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=chetak123">
+      💻
+      </a>
+   </td>
    </tr>
+   <!--     ROW 4 -->
+   <td align="center">
+      <a href="https://github.com/geekaditi">
+      <img src="https://avatars2.githubusercontent.com/u/49093585?s=400&v=4" width="100px" alt=""/><br />
+      <sub><b>geekaditi</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/oshi36">
+      <img src="https://avatars3.githubusercontent.com/u/47573417?s=400&u=673d86bb7f67e4bce870d382d1e31f50f76c66ce&v=4" width="100px" alt=""/><br />
+      <sub><b>oshi36</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/ashima0699">
+      <img src="https://avatars3.githubusercontent.com/u/56577619?s=400&u=cc6692d22cb94664bb8cf38681a46b8a13c9118a&v=4" width="100px" alt=""/><br />
+      <sub><b>ashima0699</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/akrish4">
+      <img src="https://avatars1.githubusercontent.com/u/61831021?s=400&u=31f7ece09fb07c20b3b97673f448e762dc0946b0&v=4" width="100px" alt=""/><br />
+      <sub><b>akrish4</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/kanishkaa24">
+      <img src="https://avatars3.githubusercontent.com/u/71253790?s=400&u=418d11472607d86ceb1467967332923ca56e2c30&v=4" width="100px" alt=""/><br />
+      <sub><b>kanishkaa24</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/shraiyya">
+      <img src="https://avatars2.githubusercontent.com/u/55914007?s=400&u=71c172656565be4b92d991fc39eface8cf0a5f6e&v=4" width="100px" alt=""/><br />
+      <sub><b>shraiyya</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/AmanSingh0-0">
+      <img src="https://avatars3.githubusercontent.com/u/42384948?s=400&v=4" width="100px" alt=""/><br />
+      <sub><b>AmanSingh0-0</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   </tr>
+   <!--     ROW 5 -->
+   <td align="center">
+      <a href="https://github.com/kenkirito">
+      <img src="https://avatars0.githubusercontent.com/u/68530218?s=400&u=e0e75f16074881cba0c8d0963d5d07e299484bb3&v=4" width="100px" alt=""/><br />
+      <sub><b>kenkirito</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/infiniteoverflow">
+      <img src="https://avatars1.githubusercontent.com/u/40236624?s=400&u=77b6a64e485777217d1f9643d63b54371f637959&v=4" width="100px" alt=""/><br />
+      <sub><b>infiniteoverflow</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/muthuannamalai12">
+      <img src="https://avatars0.githubusercontent.com/u/64524822?s=400&u=c1f8f317ca1eb1340f411b69b3b7c85446303ae5&v=4" width="100px" alt=""/><br />
+      <sub><b>muthuannamalai12</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
+   <td align="center">
+      <a href="https://github.com/Amit366">
+      <img src="https://avatars0.githubusercontent.com/u/60662775?s=460&v=4" width="100px" alt=""/><br />
+      <sub><b>Amit366</b></sub>
+      </a><br />
+      <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=avishkar2001">
+      💻
+      </a>
+   </td>
 </table>
