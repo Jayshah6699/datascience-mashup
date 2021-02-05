@@ -16,6 +16,17 @@ model.load_weights("ResNetModelWeights.h5")
 labels = list("ABC")
 st.title("Finger Sign Classification")
 
+st.markdown("""
+<style>
+body {
+    color: #000;
+    background-color:white;
+    
+
+    
+</style>
+    """, unsafe_allow_html=True)
+
 st.set_option('deprecation.showfileUploaderEncoding', False)
 uploaded_file = st.file_uploader("Upload image ", type=["png","jpg","jpeg"])
 
@@ -24,9 +35,7 @@ if st.button('Predict'):
     if uploaded_file is None:
         st.error("Please Upload Image !!")
     else:
-        #model = pickle.load(open('asl.pk', 'rb'))
         img = Image.open(uploaded_file)
-        #img = image.convert('RGB')
         img = img.resize((50,50))
         img = asarray(img)
         
@@ -39,13 +48,3 @@ if st.button('Predict'):
 
     
 
-st.markdown("""
-<style>
-body {
-    color: #000;
-    background-color:white;
-    
-
-    
-</style>
-    """, unsafe_allow_html=True)
