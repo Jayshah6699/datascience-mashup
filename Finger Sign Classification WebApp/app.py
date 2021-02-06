@@ -13,7 +13,7 @@ json_file.close()
 
 model = model_from_json(loaded_json_model)
 model.load_weights("ResNetModelWeights.h5")
-labels = list("ABC")
+labels = list("ABCDEF")
 st.title("Finger Sign Classification")
 
 st.markdown("""
