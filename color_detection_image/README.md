@@ -17,7 +17,7 @@ Also uploaded different images to try on.
 
 A quick demo of this is present below
 
-![Demo of the Model](./color_detection_image/output_gif.gif)
+![Demo of the Model](../color_detection_image/output_gif.gif)
 
 
 
