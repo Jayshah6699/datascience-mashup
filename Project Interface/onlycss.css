@@ -1,4 +1,4 @@
-body{
+      body{
           background-color: rgb(0, 0, 0);
       }
       h1{
@@ -33,11 +33,58 @@ body{
           color: rgb(0, 0, 0);
           font-size: 25px;
       }
-      .heading {
-        font-size: 50px;
-        text-align: center;
-        font-family: "Poppins";
-        color: white;
-        font-weight:lighter;
-        margin-bottom: 0px;
+      @import url(https://fonts.googleapis.com/css?family=Montserrat);
+      body{
+      background:black;
+      font-family: Arial;
+      }
+
+      svg {
+        display: block;
+        font: 10.5em 'Montserrat';
+        height: 150px;
+        margin: 0 auto;
+      }
+
+      .text-copy {
+        fill: none;
+        stroke: white;
+        stroke-dasharray: 6% 19%;
+        stroke-width: 4px;
+        stroke-dashoffset: 0%;
+        animation: stroke-offset 4.0s infinite linear;
+      }
+
+      .text-copy:nth-child(1){
+	     stroke: #520b3e;
+       animation-delay: 0s;
+      }
+
+      .text-copy:nth-child(2){
+        stroke: #0313f5;
+        animation-delay: -0.8s;
+        }
+
+      .text-copy:nth-child(3){
+	      stroke: #BD0034;
+        animation-delay: -1.6s;
+      }
+
+      .text-copy:nth-child(4){
+	      stroke: #ff0000;
+        animation-delay: -2.4s;
+      }
+
+      .text-copy:nth-child(5){
+	      stroke: #FDB731;
+        animation-delay: -3.2s;
+      }
+
+      .text-copy:nth-child(6){
+	      stroke: #ffc403;
+        animation-delay: -4.0s;
+      }   
+
+      @keyframes stroke-offset{
+        100% {stroke-dashoffset: -100%;}
       }
