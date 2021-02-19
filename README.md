@@ -1,11 +1,5 @@
 # Datascience Mashup
 
-![Makes people smile](https://forthebadge.com/images/badges/makes-people-smile.svg)
-![Made with love](https://forthebadge.com/images/badges/built-with-love.svg)
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-<img src=https://www.uat.edu/media/data-science-banner.png>
-
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Jayshah6699/datascience-mashup/issues) 
  [![Forks](https://img.shields.io/github/forks/Jayshah6699/datascience-mashup?label=FORK&style=social)](https://github.com/Jayshah6699/datascience-mashup/network/members) 
@@ -19,6 +13,14 @@
 [![Github all releases](https://img.shields.io/github/downloads/Jayshah6699/datascience-mashup/total.svg)](https://GitHub.com/Jayshah6699/datascience-mashup/releases/)
 ![Project views](https://gpvc.arturio.dev/Jayshah6699)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+
+![Makes people smile](https://forthebadge.com/images/badges/makes-people-smile.svg)
+![Made with love](https://forthebadge.com/images/badges/built-with-love.svg)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+<img src=https://www.uat.edu/media/data-science-banner.png>
+
 
 ## :sunglasses:  Overview: :point_down:
 
