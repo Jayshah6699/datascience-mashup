@@ -63,20 +63,20 @@ DD = datetime.timedelta(days=7)
 start=end - DD
 end=end.strftime("%Y-%m-%d")
 start=start.strftime("%Y-%m-%d")
-google_df = yf.download('TSLA',
+tsla_df = yf.download('TSLA',
                       start=start,
                       end=end ,
                       progress=False)
-google_df.head()
+tsla_df.head()
 plt.figure(figsize=(10,10))
-plt.plot(google_df.index, google_df['Close'])
+plt.plot(tsla_df.index, tsla_df['Close'])
 plt.plot(mean_df.index, mean_df['TSLA']*100+800)
 plt.xlabel("date")
 plt.show()
 
 
 
-#
+
 
 
 
