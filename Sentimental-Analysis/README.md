@@ -29,5 +29,5 @@ A basic python script for understanding working behind SA algo
    - calculating differnt sentinal score i.e positive, negative, neutral
 
 # A plot for the Steve Jobs' 2005 Stanford Commencement Address
-![sentimentGraph](https://github.com/Rohit-bisht-rise/Sentimental-Anaylysis/blob/main/sentimentGraph.png)
+![sentimentGraph](https://github.com/Rohit-bisht-rise/Sentimental-Analysis/blob/main/sentimentGraph.png)
 
