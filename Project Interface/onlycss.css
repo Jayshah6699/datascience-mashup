@@ -1,22 +1,27 @@
+ 
       body{
           background-color: rgb(0, 0, 0);
       }
-      h1{
-          font-weight: lighter;
-          margin-bottom: 0px;
-          margin-top: 40px;
-          text-decoration: transparent;
-      }
+
       p{
-          font-family:"Poppins",sans-serif;
+          font-family:"Poppins";
           text-align:left;
           padding: 10px;
           margin:0px;
+          font-size: 15px;
       }
+
+      .dwoc-card-front h1{
+        color: white;
+        font-family:"Poppins";
+        margin-top: 0px;
+        font-size: 30px;
+      }
+
       .project {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           width: 250px;
-          height: 425px;
+          height: fit-content;
           margin:auto;
           text-align:center;
           background-color: white;
@@ -24,15 +29,19 @@
           display: inline-block;
           margin-left: 40px;
           border-radius: 25px;
+          padding-bottom: 15px;
       }
+
       .title {
           color:rgb(0, 0, 0);
-          font-size: 16px;
+          font-size: 14px;
       }
+      
       a {
           color: rgb(0, 0, 0);
           font-size: 25px;
       }
+      
       @import url(https://fonts.googleapis.com/css?family=Montserrat);
       body{
       background:black;
@@ -87,4 +96,82 @@
 
       @keyframes stroke-offset{
         100% {stroke-dashoffset: -100%;}
+      }
+
+      .open-source{
+        color:white;
+        text-align:center;
+        font-family: "Monserrat";
+        font-size: 40px;
+        margin-top: 15px;
+      }
+
+      .dwoc-card {
+        background-color: transparent;
+        width: 450px;
+        height: 450px;
+        perspective: 1000px; 
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        border-radius:30px;
+      }
+
+      .dwoc-card-struct {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        border-radius:30px;
+      }
+
+      .dwoc-card:hover .dwoc-card-struct {
+        transform: rotateY(180deg);
+      }
+      
+      .dwoc-card-front, .dwoc-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius:30px;
+      }
+
+      .dwoc-card-front {
+        background-color: rgb(19, 0, 192);
+      }
+      
+      .dwoc-card-back {
+        background-color: rgb(255, 255, 255);
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+      .dwoc{
+        margin-top: 15px;
+        margin-bottom: 0px;
+      }
+
+      .dwoc-card-back h1{
+        font-family: "Poppins";
+        vertical-align: middle;
+        font-size: 25px;
+        text-align:center;
+        color:black;
+        font-weight: lighter;
+        margin-top:130px;
+        padding: 10px;
+        margin-bottom: 0px;
+      }
+
+      .dwoc-card-back a{
+        font-family: "Poppins";
+        vertical-align: middle;
+        font-size: 35px;
+        text-align:center;
+        color:black;
+        margin-top: 10px;
       }
