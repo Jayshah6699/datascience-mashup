@@ -1,0 +1,5 @@
+- **CAPM(Capital Asset Pricing Model)** attempts to price securities by examining the relationship that exists between expected returns and risk.
+- **Beta** can be referred to as a measure of the sensitivity of stock returns to market returns.A stock with a beta less than one tends to be less volatile.A stock with a beta more than one tends to be more volatile.
+- In this project, using linear regression we predict the gold prices in India. A histogram & distplot is also plotted to find any discrepancies.
+- Later we import the Nifty Index and HUL(Hindustan Unilever) stock to find its beta value (monthly and weekly both) and do the CAPM analysis.
+- Please add **DWOC Tag and Level**.
