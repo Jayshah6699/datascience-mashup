@@ -1,6 +1,6 @@
 ## CAPTCHA Recognition
 
-Architecture used : MobileNet
+Architecture used : MobileNet  
 Accuracy : 0.96
 
 ## Output 
